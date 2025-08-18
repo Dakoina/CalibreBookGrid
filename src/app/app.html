@@ -117,7 +117,7 @@
     border-radius: 2.75rem;
     border: 0;
     transition: background 0.3s ease;
-    font-family: var(--inter-font);
+    font-family: inherit;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
@@ -339,4 +339,26 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
+<header class="sticky top-0 z-10 bg-gray-950/70 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60 border-b border-gray-800">
+  <nav class="mx-auto max-w-screen-xl px-3 py-2 flex items-center gap-2 text-sm overflow-x-auto text-gray-200">
+    <a routerLink="/covers" routerLinkActive="text-indigo-400" class="px-2 py-1 rounded hover:bg-gray-800 whitespace-nowrap">Covers</a>
+    <a routerLink="/covers-extended" routerLinkActive="text-indigo-400" class="px-2 py-1 rounded hover:bg-gray-800 whitespace-nowrap">Extended</a>
+    <a routerLink="/titles" routerLinkActive="text-indigo-400" class="px-2 py-1 rounded hover:bg-gray-800 whitespace-nowrap">Titles</a>
+    <a routerLink="/series" routerLinkActive="text-indigo-400" class="px-2 py-1 rounded hover:bg-gray-800 whitespace-nowrap">Series</a>
+  </nav>
+</header>
 <router-outlet />
+
+<!-- Floating Scroll To Top Button -->
+<button
+  type="button"
+  class="fixed bottom-4 right-4 z-50 rounded-full bg-indigo-600 text-white shadow-lg p-3 opacity-80 hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+  title="Scroll to top"
+  aria-label="Scroll to top"
+  [class.hidden]="!showScrollTop()"
+  (click)="scrollToTop()"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+    <path d="M12 5l7 7-1.41 1.41L13 9.83V20h-2V9.83l-4.59 4.58L5 12l7-7z" />
+  </svg>
+</button>
