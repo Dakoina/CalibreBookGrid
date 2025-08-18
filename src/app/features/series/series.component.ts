@@ -17,7 +17,7 @@ import { SizeControlComponent } from '../../shared/size-control';
 
       @for (s of seriesList(); track s) {
         <section class="mt-3">
-          <h2 class="text-sm font-semibold text-gray-700 mb-2">{{ s }}</h2>
+          <h2 class="text-sm font-semibold text-gray-200 mb-2">{{ s }}</h2>
           <div class="grid gap-2" [style.gridTemplateColumns]="gridTemplate()">
             @for (b of booksInSeries(s); track b.id) {
               <book-cover [book]="b" [height]="sizes.size()" [width]="sizes.size() * 2/3" [dimUnread]="b.is_read !== 1" />

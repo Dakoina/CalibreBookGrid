@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { BooksService, Book } from '../../shared/books.service';
 import { SearchBoxComponent } from '../../shared/search-box';
+import { BookCoverComponent } from '../../shared/book-cover';
 
 @Component({
   selector: 'titles-page',
-  imports: [SearchBoxComponent],
+  imports: [SearchBoxComponent, BookCoverComponent],
   template: `
     <div class="p-3 flex flex-col gap-3">
       <div class="flex items-center justify-between gap-3">
@@ -13,14 +14,15 @@ import { SearchBoxComponent } from '../../shared/search-box';
 
       @for (author of authors(); track author.name) {
         <section class="mt-3">
-          <h2 class="text-sm font-semibold text-gray-700 mb-1">{{ author.name }}</h2>
+          <h2 class="text-sm font-semibold text-gray-200 mb-1">{{ author.name }}</h2>
           @for (s of author.series; track s.name) {
             <div class="mb-1">
-              <div class="text-xs text-gray-500 mb-1">{{ s.name }}</div>
+              <div class="text-xs text-gray-400 mb-1">{{ s.name }}</div>
               <ul class="pl-3">
                 @for (b of s.books; track b.id) {
-                  <li class="text-sm text-gray-800 flex items-center gap-1">
-                    <span>{{ bTitle(b) }}</span>
+                  <li class="text-sm text-gray-100 flex items-center gap-1">
+                    <button type="button" class="underline underline-offset-2 hover:text-indigo-200" (click)="bc.openDetails()">{{ bTitle(b) }}</button>
+                    <book-cover #bc [book]="b" [height]="0" [width]="0" />
                     @if (b.is_read === 1) {
                       <span class="inline-block h-2 w-2 rounded-full bg-green-500"></span>
                     }

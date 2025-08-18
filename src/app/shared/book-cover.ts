@@ -17,7 +17,7 @@ import type { Book } from './books.service';
           [ngSrc]="imgSrc()"
           [alt]="book().title"
           class="h-full w-full object-cover"
-          [style.opacity]="dimUnread() ? 0.6 : 1"
+          [style.opacity]="dimUnread() ? 0.2 : 1"
           width="200"
           height="300"
         />
@@ -46,7 +46,7 @@ import type { Book } from './books.service';
                     </button>
                   </div>
                   <div class="text-sm text-gray-300">by {{ book().author }}</div>
-                  @if (book().series?.trim()) {
+                  @if (book().series.trim()) {
                     <div class="text-sm text-gray-400">{{ book().series }} @if (book().series_index != null){#{{ book().series_index }}}</div>
                   }
                   <div class="mt-2">

@@ -17,10 +17,10 @@ import { SizeControlComponent } from '../../shared/size-control';
 
       @for (entry of authorsGrouped(); track entry.author) {
         <section class="mt-3">
-          <h2 class="text-sm font-semibold text-gray-700 mb-2">{{ entry.author }}</h2>
+          <h2 class="text-sm font-semibold text-gray-200 mb-2">{{ entry.author }}</h2>
           @for (s of entry.series; track s.name) {
             <div class="mb-2">
-              <div class="text-xs text-gray-500 mb-1">{{ s.name }}</div>
+              <div class="text-xs text-gray-400 mb-1">{{ s.name }}</div>
               <div class="grid gap-2" [style.gridTemplateColumns]="gridTemplate()">
                 @for (b of s.books; track b.id) {
                   <book-cover [book]="b" [height]="sizes.size()" [width]="sizes.size() * 2/3" />
