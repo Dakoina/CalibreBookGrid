@@ -20,7 +20,7 @@ export class BooksService {
 
   // raw load once
   private books$ = this.http
-    .get<Book[]>('/data/books.json')
+    .get<Book[]>('data/books.json')
     .pipe(
       map((books) => books.map(this.normalizeBook)),
       shareReplay(1)
