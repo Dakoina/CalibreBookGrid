@@ -8,12 +8,12 @@ import { BookCoverComponent } from '../../shared/book-cover';
   imports: [SearchBoxComponent, BookCoverComponent],
   template: `
     <div class="p-3 flex flex-col gap-3">
-      <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center justify-between gap-3 sticky top-0 z-10 bg-gray-900/70 supports-[backdrop-filter]:bg-gray-900/60 backdrop-blur border-b border-gray-700 shadow-sm px-3 py-2 rounded-md">
         <search-box />
       </div>
 
       @for (author of authors(); track author.name) {
-        <section class="mt-3">
+        <section class="mt-1">
           <h2 class="text-sm font-semibold text-gray-200 mb-1">{{ author.name }}</h2>
           @for (s of author.series; track s.name) {
             <div class="mb-1">

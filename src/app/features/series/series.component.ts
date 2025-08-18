@@ -10,14 +10,14 @@ import { SizeControlComponent } from '../../shared/size-control';
   imports: [BookCoverComponent, SearchBoxComponent, SizeControlComponent],
   template: `
     <div class="p-3 flex flex-col gap-3">
-      <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center justify-between gap-3 sticky top-0 z-10 bg-gray-900/70 supports-[backdrop-filter]:bg-gray-900/60 backdrop-blur border-b border-gray-700 shadow-sm px-3 py-2 rounded-md">
         <search-box />
         <size-control />
       </div>
 
       @for (s of seriesList(); track s) {
-        <section class="mt-3">
-          <h2 class="text-sm font-semibold text-gray-200 mb-2">{{ s }}</h2>
+        <section class="mt-1">
+          <h2 class="text-sm font-semibold text-gray-200 mb-1">{{ s }}</h2>
           <div class="grid gap-2" [style.gridTemplateColumns]="gridTemplate()">
             @for (b of booksInSeries(s); track b.id) {
               <book-cover [book]="b" [height]="sizes.size()" [width]="sizes.size() * 2/3" [dimUnread]="b.is_read !== 1" />

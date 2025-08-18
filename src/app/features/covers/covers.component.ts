@@ -10,7 +10,7 @@ import { SizeControlComponent } from '../../shared/size-control';
   imports: [BookCoverComponent, SearchBoxComponent, SizeControlComponent],
   template: `
     <div class="p-3 flex flex-col gap-3">
-      <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center justify-between gap-3 sticky top-0 z-10 bg-gray-900/70 supports-[backdrop-filter]:bg-gray-900/60 backdrop-blur border-b border-gray-700 shadow-sm px-3 py-2 rounded-md">
         <search-box />
         <size-control />
       </div>
