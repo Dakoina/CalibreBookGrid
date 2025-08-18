@@ -78,7 +78,7 @@ export class BookCoverComponent {
 
   imgSrc() {
     // cover_path is relative to /data
-    return `/data/${this.book().cover_path}`;
+    return `data/${this.book().cover_path}`;
   }
 
   goodreadsUrl() {
