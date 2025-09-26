@@ -105,6 +105,51 @@
     ]
   },
   {
+    "id": 1339,
+    "author": "Adalyn Grace",
+    "title": "Belladonna",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1339.jpg",
+    "is_read": 0,
+    "cover_hash": "7d8c49bd30baf5c3c88dc9f0dd1d92353fdefc38e7d433bdacd6df50494cd485",
+    "cover_color": [
+      92,
+      69,
+      66
+    ]
+  },
+  {
+    "id": 1316,
+    "author": "Adalyn Grace",
+    "title": "Foxglove",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1316.jpg",
+    "is_read": 0,
+    "cover_hash": "7e7e91258b9f9cda5a2b2531c3a7feb684e0e8699908e81f165c76da239899c4",
+    "cover_color": [
+      73,
+      43,
+      42
+    ]
+  },
+  {
+    "id": 1356,
+    "author": "Adalyn Grace",
+    "title": "Wisteria",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1356.jpg",
+    "is_read": 0,
+    "cover_hash": "52a742c4f61a4316834a57f4493d782b7771f30c77674e3c02e9d447a2f1325a",
+    "cover_color": [
+      107,
+      92,
+      89
+    ]
+  },
+  {
     "id": 739,
     "author": "Adolfo Bioy Casares, Ruth L. C. Simms",
     "title": "The Invention of Morel",
@@ -162,6 +207,21 @@
       214,
       191,
       188
+    ]
+  },
+  {
+    "id": 1373,
+    "author": "Aiden Thomas",
+    "title": "The Sunbearer Trials",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1373.jpg",
+    "is_read": 0,
+    "cover_hash": "6d84117a20db9f3bfe26ed75a6c0e81682d1d1f8ccdc96284eab15e0a9e51d68",
+    "cover_color": [
+      90,
+      120,
+      86
     ]
   },
   {
@@ -300,6 +360,66 @@
     ]
   },
   {
+    "id": 1298,
+    "author": "Alice Oseman",
+    "title": "I Was Born for This",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1298.jpg",
+    "is_read": 0,
+    "cover_hash": "20df75e7d181c5b1eb2b048325a96f6cf16aa42546b8a95bbd0a29adccec46e3",
+    "cover_color": [
+      192,
+      131,
+      42
+    ]
+  },
+  {
+    "id": 1287,
+    "author": "Alice Oseman",
+    "title": "Loveless",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1287.jpg",
+    "is_read": 0,
+    "cover_hash": "62238df5dadb333681cd9bd378a08f70e197749f7e27f99dd618d9ff0e16263e",
+    "cover_color": [
+      180,
+      107,
+      197
+    ]
+  },
+  {
+    "id": 1396,
+    "author": "Alice Oseman",
+    "title": "Solitaire",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1396.jpg",
+    "is_read": 0,
+    "cover_hash": "a798d2475fb507396432b7bc72bfb40963253c7fd6b715a014824142c919dfb7",
+    "cover_color": [
+      233,
+      154,
+      159
+    ]
+  },
+  {
+    "id": 1370,
+    "author": "Alice Oseman",
+    "title": "This Winter",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1370.jpg",
+    "is_read": 0,
+    "cover_hash": "dcd9da7965f19b9c39cfca661253e6d5f94e0e69dca6c94bc1c9f35c0f00f9bc",
+    "cover_color": [
+      158,
+      195,
+      208
+    ]
+  },
+  {
     "id": 323,
     "author": "Alice Oseman",
     "title": "Heartstopper (Volume Four)",
@@ -360,6 +480,21 @@
     ]
   },
   {
+    "id": 1279,
+    "author": "Alice Oseman",
+    "title": "Nick and Charlie",
+    "series": "Solitaire",
+    "series_index": 1.5,
+    "cover_path": "covers/1279.jpg",
+    "is_read": 0,
+    "cover_hash": "c0fd3f8e998e576c1926dc902a0e329404f61ec43b35b58bc2f67915f83a6c62",
+    "cover_color": [
+      228,
+      222,
+      38
+    ]
+  },
+  {
     "id": 443,
     "author": "Alison Espach",
     "title": "The Wedding People",
@@ -417,6 +552,21 @@
       159,
       224,
       198
+    ]
+  },
+  {
+    "id": 1274,
+    "author": "Alyssa Cole",
+    "title": "Radio Silence",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1274.jpg",
+    "is_read": 0,
+    "cover_hash": "87e669d3b17e718c541559fd0e990704b900dd24d10a5c039c19d54078afadd1",
+    "cover_color": [
+      117,
+      171,
+      170
     ]
   },
   {
@@ -612,6 +762,21 @@
       206,
       222,
       232
+    ]
+  },
+  {
+    "id": 1345,
+    "author": "Anders Hansen",
+    "title": "Hjärnstark",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1345.jpg",
+    "is_read": 0,
+    "cover_hash": "03995c1e858a6523083680745139e3e526451c1824a5925d86bc7864adf976ce",
+    "cover_color": [
+      193,
+      162,
+      127
     ]
   },
   {
@@ -822,6 +987,36 @@
       163,
       140,
       119
+    ]
+  },
+  {
+    "id": 1355,
+    "author": "Angie Thomas",
+    "title": "Concrete Rose",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1355.jpg",
+    "is_read": 0,
+    "cover_hash": "2647c090aeb0ce7c8396f58d7ba0239ba00d4c02461fba1ab2a37be5da9ab77f",
+    "cover_color": [
+      194,
+      50,
+      54
+    ]
+  },
+  {
+    "id": 1353,
+    "author": "Angie Thomas",
+    "title": "The Hate U Give",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1353.jpg",
+    "is_read": 0,
+    "cover_hash": "bf1039359e8b93550de07ed1f1c0db4f51b5011a5cee92e903eefe43a21cb77a",
+    "cover_color": [
+      232,
+      229,
+      229
     ]
   },
   {
@@ -1110,6 +1305,21 @@
     ]
   },
   {
+    "id": 1376,
+    "author": "Ashley Audrain",
+    "title": "The Push",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1376.jpg",
+    "is_read": 0,
+    "cover_hash": "cec46f33fff3091395a774094c7548a5439f3327f498f981f7a97126e354cdb1",
+    "cover_color": [
+      137,
+      147,
+      153
+    ]
+  },
+  {
     "id": 571,
     "author": "Ashley Elston",
     "title": "First Lie Wins",
@@ -1140,6 +1350,111 @@
     ]
   },
   {
+    "id": 1335,
+    "author": "Astrid Lindgren",
+    "title": "Bröderna Lejonhjärta",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1335.jpg",
+    "is_read": 0,
+    "cover_hash": "d174bfde4f93bd2f68f853ef771548c8fbd45fad39c3e16c3d3731e757943467",
+    "cover_color": [
+      181,
+      204,
+      203
+    ]
+  },
+  {
+    "id": 1280,
+    "author": "Astrid Lindgren",
+    "title": "Mästerdetektiven Blomkvist lever farligt",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1280.jpg",
+    "is_read": 0,
+    "cover_hash": "849e26c050dfd2959857a76a222498a1e4b2f1dbb1e711d112e4980a32922139",
+    "cover_color": [
+      138,
+      150,
+      148
+    ]
+  },
+  {
+    "id": 1405,
+    "author": "Astrid Lindgren",
+    "title": "Pippi Langstrump",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1405.jpg",
+    "is_read": 0,
+    "cover_hash": "b554b678b8ca677142128c8d1932aafc421f3eae4169e105d5ccf1c0feef7769",
+    "cover_color": [
+      226,
+      189,
+      18
+    ]
+  },
+  {
+    "id": 1404,
+    "author": "Astrid Lindgren",
+    "title": "Pippi Langstrump gar ombord",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1404.jpg",
+    "is_read": 0,
+    "cover_hash": "103b6b94dd69f43801b48b39f8fb98b6d0933004bad26b502e2edbc2060544df",
+    "cover_color": [
+      218,
+      190,
+      23
+    ]
+  },
+  {
+    "id": 1403,
+    "author": "Astrid Lindgren",
+    "title": "Pippi Langstrump i Soderhavet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1403.jpg",
+    "is_read": 0,
+    "cover_hash": "0e4958267a8bf59a0e0b361ee6270380b15c4858d42bf0d8bda2e91b97130766",
+    "cover_color": [
+      222,
+      187,
+      21
+    ]
+  },
+  {
+    "id": 1401,
+    "author": "Astrid Lindgren",
+    "title": "Ronja Rövardotter",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1401.jpg",
+    "is_read": 0,
+    "cover_hash": "6526c3f49f38634294a84adb5bab5486b5947163baa43530523c8016aa22da82",
+    "cover_color": [
+      101,
+      149,
+      130
+    ]
+  },
+  {
+    "id": 1390,
+    "author": "Astrid Lindgren",
+    "title": "The Brothers Lionheart",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1390.jpg",
+    "is_read": 0,
+    "cover_hash": "6ab5ede4bac1b956c8468f326537ae2e6583636abbdde747dc48095368c7bc41",
+    "cover_color": [
+      146,
+      193,
+      201
+    ]
+  },
+  {
     "id": 593,
     "author": "Audrey Ingram",
     "title": "The Summer We Ran",
@@ -1152,6 +1467,36 @@
       120,
       127,
       125
+    ]
+  },
+  {
+    "id": 1341,
+    "author": "Ava Reid",
+    "title": "A Study in Drowning",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1341.jpg",
+    "is_read": 0,
+    "cover_hash": "6f05f63baeadb711f60d1523dd402ad20eb2801a6a9eae66eee8bb438691b30e",
+    "cover_color": [
+      80,
+      81,
+      73
+    ]
+  },
+  {
+    "id": 1385,
+    "author": "Axie Oh",
+    "title": "The Girl Who Fell Beneath the Sea",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1385.jpg",
+    "is_read": 0,
+    "cover_hash": "93e40690f191b6fab386769f7bdb424c954204cd26382ab841913c6099774089",
+    "cover_color": [
+      136,
+      134,
+      128
     ]
   },
   {
@@ -1557,6 +1902,36 @@
       218,
       182,
       182
+    ]
+  },
+  {
+    "id": 1354,
+    "author": "Benjamin Alire Sáenz",
+    "title": "Aristotle and Dante Discover the Secrets of the Universe",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1354.jpg",
+    "is_read": 0,
+    "cover_hash": "d584c90be0773a22fe19b29e3884a038982fe77e7a11b9d8b87b2829df33a72d",
+    "cover_color": [
+      66,
+      80,
+      89
+    ]
+  },
+  {
+    "id": 1351,
+    "author": "Benjamin Alire Sáenz",
+    "title": "Aristotle and Dante Dive Into the Waters of the World",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1351.jpg",
+    "is_read": 0,
+    "cover_hash": "2dac64775698685008314b4d6e0d25c815f1adf394b9e9852668df6ad7b1ac73",
+    "cover_color": [
+      93,
+      148,
+      175
     ]
   },
   {
@@ -2025,6 +2400,21 @@
     ]
   },
   {
+    "id": 1326,
+    "author": "CG Drews",
+    "title": "Don't Let the Forest In",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1326.jpg",
+    "is_read": 0,
+    "cover_hash": "bff57046970866f3b08363563282cda9c1542e3213831906599c35bd11dd9ba5",
+    "cover_color": [
+      87,
+      76,
+      66
+    ]
+  },
+  {
     "id": 82,
     "author": "Cal Newport",
     "title": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
@@ -2052,6 +2442,66 @@
       87,
       91,
       96
+    ]
+  },
+  {
+    "id": 1413,
+    "author": "Camilla Brinck",
+    "title": "Musse & Helium 1: Mysteriet med hålet i väggen",
+    "series": "Musse & Helium (se)",
+    "series_index": 1.0,
+    "cover_path": "covers/1413.jpg",
+    "is_read": 0,
+    "cover_hash": "cd9e1ee37a080d62100628dba435e5e8e1043d1fdf5f8f2452e953d1ff80ac6d",
+    "cover_color": [
+      131,
+      113,
+      97
+    ]
+  },
+  {
+    "id": 1412,
+    "author": "Camilla Brinck",
+    "title": "Musse & Helium 2: Jakten på guldosten",
+    "series": "Musse & Helium (se)",
+    "series_index": 2.0,
+    "cover_path": "covers/1412.jpg",
+    "is_read": 0,
+    "cover_hash": "a688c314c4d95ab152e5b37366bfe9992073089a9556137b4efb45503320080e",
+    "cover_color": [
+      111,
+      112,
+      122
+    ]
+  },
+  {
+    "id": 1410,
+    "author": "Camilla Brinck",
+    "title": "Musse & Helium 3: Dags att sovav",
+    "series": "Musse & Helium (se)",
+    "series_index": 3.0,
+    "cover_path": "covers/1410.jpg",
+    "is_read": 0,
+    "cover_hash": "89573e0e178b17dcc3e792710b0107ae7aef5c5e58701636c469fcb84d706124",
+    "cover_color": [
+      162,
+      115,
+      78
+    ]
+  },
+  {
+    "id": 1411,
+    "author": "Camilla Brinck",
+    "title": "Musse & Helium 4: I Duvjägarnas klor",
+    "series": "Musse & Helium (se)",
+    "series_index": 4.0,
+    "cover_path": "covers/1411.jpg",
+    "is_read": 0,
+    "cover_hash": "8492c4ab6ab2ef1c4954a55aa1072350090a7c26062e67fb04c56d87a3b04d16",
+    "cover_color": [
+      81,
+      106,
+      147
     ]
   },
   {
@@ -2400,6 +2850,81 @@
     ]
   },
   {
+    "id": 1333,
+    "author": "Cassandra Clare",
+    "title": "Chain of Gold",
+    "series": "The Last Hours",
+    "series_index": 1.0,
+    "cover_path": "covers/1333.jpg",
+    "is_read": 0,
+    "cover_hash": "cc1ef16a7e091adfff981aaf76b246e6cf0b940db6a356486dd29cb6c1260401",
+    "cover_color": [
+      118,
+      110,
+      89
+    ]
+  },
+  {
+    "id": 1332,
+    "author": "Cassandra Clare",
+    "title": "Chain of Iron (The Last Hours 2)",
+    "series": "The Last Hours",
+    "series_index": 2.0,
+    "cover_path": "covers/1332.jpg",
+    "is_read": 0,
+    "cover_hash": "bc2a1ac49c0fb1f0d487c6b71685ee827be8f04976bdcc6a9b671e1d0eea920a",
+    "cover_color": [
+      123,
+      126,
+      124
+    ]
+  },
+  {
+    "id": 1331,
+    "author": "Cassandra Clare",
+    "title": "The Last Hours: Chain of Thorns",
+    "series": "The Last Hours",
+    "series_index": 3.0,
+    "cover_path": "covers/1331.jpg",
+    "is_read": 0,
+    "cover_hash": "2215ea512c27a7b2a1c0513779775e051170fbf5eba60414d03948d2515e46cc",
+    "cover_color": [
+      120,
+      102,
+      71
+    ]
+  },
+  {
+    "id": 1379,
+    "author": "Cassandra Clare, Wesley Chu",
+    "title": "The Lost Book of the White (The Eldest Curses)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1379.jpg",
+    "is_read": 0,
+    "cover_hash": "d1b631744e34b81cbffe01c9e5c04c9ccac643c5a91741ddec6c80ed40929101",
+    "cover_color": [
+      119,
+      85,
+      105
+    ]
+  },
+  {
+    "id": 1375,
+    "author": "Cassandra Clare, Wesley Chu",
+    "title": "The Red Scrolls of Magic",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1375.jpg",
+    "is_read": 0,
+    "cover_hash": "7a501cfb7612cf024d71be4d6c7eb1d5eb125ce35efdb4f36a94db39fa65564f",
+    "cover_color": [
+      103,
+      100,
+      99
+    ]
+  },
+  {
     "id": 583,
     "author": "Casualfarmer",
     "title": "Beware of Chicken 2: A Xianxia Cultivation Novel",
@@ -2625,6 +3150,51 @@
     ]
   },
   {
+    "id": 1319,
+    "author": "Chloe Gong",
+    "title": "Foul Heart Huntsman",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1319.jpg",
+    "is_read": 0,
+    "cover_hash": "ff6db8ea86c7cd317d11cd831a49fcb029eac078961bc7230ea7baf624d8afc1",
+    "cover_color": [
+      184,
+      158,
+      169
+    ]
+  },
+  {
+    "id": 1315,
+    "author": "Chloe Gong",
+    "title": "Foul Lady Fortune",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1315.jpg",
+    "is_read": 0,
+    "cover_hash": "4629febea05e680aa5a21c8e73e2bf20b045b4cad11a94a193b7c306c12250f4",
+    "cover_color": [
+      189,
+      148,
+      148
+    ]
+  },
+  {
+    "id": 1290,
+    "author": "Chloe Gong",
+    "title": "Last Violent Call: A Foul Thing; This Foul Murder",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1290.jpg",
+    "is_read": 0,
+    "cover_hash": "6ed8eeb17e2a0e10f2919317c346aa1e23b1d63143686b4ae7abadebee37ad73",
+    "cover_color": [
+      137,
+      137,
+      119
+    ]
+  },
+  {
     "id": 419,
     "author": "Chloe Walsh",
     "title": "Binding 13: Boys of Tommen #1",
@@ -2802,6 +3372,21 @@
       170,
       154,
       104
+    ]
+  },
+  {
+    "id": 1372,
+    "author": "Christina Lauren",
+    "title": "The Unhoneymooners",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1372.jpg",
+    "is_read": 0,
+    "cover_hash": "aa2dd97507d4af3dac7f49016589dcedd16eb12e8bca40f4f92d999a41ded684",
+    "cover_color": [
+      223,
+      205,
+      27
     ]
   },
   {
@@ -3720,6 +4305,21 @@
     ]
   },
   {
+    "id": 1273,
+    "author": "David Walliams",
+    "title": "Farfar på rymmen",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1273.jpg",
+    "is_read": 0,
+    "cover_hash": "18c0a9da3ed69185507fb5722992e8f27e2b1a3076cbe7100caef5bb866a8b78",
+    "cover_color": [
+      148,
+      173,
+      170
+    ]
+  },
+  {
     "id": 10,
     "author": "David Walliams",
     "title": "Gangsterbestemor",
@@ -3750,6 +4350,51 @@
     ]
   },
   {
+    "id": 1312,
+    "author": "David Walliams",
+    "title": "Gangsterfarmor",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1312.jpg",
+    "is_read": 0,
+    "cover_hash": "5a8332c19f8873c8483c96a3765868138fe86f7db6772cbf14f5c4305dc7ef6c",
+    "cover_color": [
+      171,
+      42,
+      64
+    ]
+  },
+  {
+    "id": 1416,
+    "author": "David Walliams",
+    "title": "Midnattsgänget",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1416.jpg",
+    "is_read": 0,
+    "cover_hash": "99b013d9d7f0e58e44b42ae777e055dfe6df5df488c0a611c5bb6f771357adda",
+    "cover_color": [
+      99,
+      92,
+      128
+    ]
+  },
+  {
+    "id": 1282,
+    "author": "David Walliams",
+    "title": "Miljardärkillen",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1282.jpg",
+    "is_read": 0,
+    "cover_hash": "7a0dd7791c0639058a1c6cb5d63198d368e8f3e1edb16cb62adf53e163499d1e",
+    "cover_color": [
+      92,
+      168,
+      186
+    ]
+  },
+  {
     "id": 700,
     "author": "David Walliams",
     "title": "Mr Mingin",
@@ -3777,6 +4422,36 @@
       196,
       164,
       66
+    ]
+  },
+  {
+    "id": 1402,
+    "author": "David Walliams",
+    "title": "Råttburgare",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1402.jpg",
+    "is_read": 0,
+    "cover_hash": "4c2bcd4eae62f6e2ba5a6e027f6f0a59cefb6f3f4ca24d69b6ddba7c4ee7e83e",
+    "cover_color": [
+      85,
+      123,
+      149
+    ]
+  },
+  {
+    "id": 1394,
+    "author": "David Walliams",
+    "title": "Stinkis",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1394.jpg",
+    "is_read": 0,
+    "cover_hash": "3d2ac202bde8016b33d7c6022a741590e8842038d9e9ade504a008f0f14b5394",
+    "cover_color": [
+      202,
+      171,
+      60
     ]
   },
   {
@@ -4275,6 +4950,21 @@
     ]
   },
   {
+    "id": 1310,
+    "author": "Elias Våhlund, Agnes Våhlund",
+    "title": "Handboken",
+    "series": "Handbok för superhjältar",
+    "series_index": 1.0,
+    "cover_path": "covers/1310.jpg",
+    "is_read": 0,
+    "cover_hash": "9cb4247f0f26aedc9fa8ace50949f352c5a5ad38b701513dfd7186b7adc0795e",
+    "cover_color": [
+      186,
+      111,
+      94
+    ]
+  },
+  {
     "id": 912,
     "author": "Elif Shafak",
     "title": "De veertig regels van liefde",
@@ -4710,6 +5400,21 @@
     ]
   },
   {
+    "id": 1300,
+    "author": "Emily J. Taylor",
+    "title": "Hotel Magnifique",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1300.jpg",
+    "is_read": 0,
+    "cover_hash": "c6dfd2462d0adbceafd702d6d22c871990ed860c14cee44d8e166dc0e931b07f",
+    "cover_color": [
+      36,
+      26,
+      35
+    ]
+  },
+  {
     "id": 788,
     "author": "Emma Burstall",
     "title": "Onder de citroenbomen",
@@ -4932,6 +5637,21 @@
       47,
       68,
       67
+    ]
+  },
+  {
+    "id": 1397,
+    "author": "F.T. Lukens",
+    "title": "So This Is Ever After",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1397.jpg",
+    "is_read": 0,
+    "cover_hash": "aee1386b38d7ac2bd92436adba2a60149adf60a2dfe84d8017eb43de293adad1",
+    "cover_color": [
+      116,
+      68,
+      107
     ]
   },
   {
@@ -5625,6 +6345,21 @@
     ]
   },
   {
+    "id": 1359,
+    "author": "Glendy Vanderah",
+    "title": "Where the Forest Meets the Stars",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1359.jpg",
+    "is_read": 0,
+    "cover_hash": "55792eae25ee1f82275abafb317a9db48d90c4c3b9156c71e5c4b0cea033b9ec",
+    "cover_color": [
+      31,
+      61,
+      83
+    ]
+  },
+  {
     "id": 284,
     "author": "Gorshkow Michael",
     "title": "The Art of Racing in the Rain",
@@ -5967,6 +6702,66 @@
       124,
       118,
       75
+    ]
+  },
+  {
+    "id": 1317,
+    "author": "Hanna Blixt",
+    "title": "Galleriet vid vattnet",
+    "series": "Leksands-sviten",
+    "series_index": 2.0,
+    "cover_path": "covers/1317.jpg",
+    "is_read": 0,
+    "cover_hash": "879b9e7faba1a4fdf6390c0475940ea41c99b2dbd14aadd6b70edeec0c0f8758",
+    "cover_color": [
+      116,
+      144,
+      156
+    ]
+  },
+  {
+    "id": 1313,
+    "author": "Hanna Blixt",
+    "title": "Glasveranda med sjöutsikt",
+    "series": "Leksands-sviten",
+    "series_index": 1.0,
+    "cover_path": "covers/1313.jpg",
+    "is_read": 0,
+    "cover_hash": "58e1989df55df8b8e591f23e5f80ca9986d3aef6d3cab360d262393e41dab91b",
+    "cover_color": [
+      189,
+      199,
+      209
+    ]
+  },
+  {
+    "id": 1364,
+    "author": "Hanna Blixt, Jakob",
+    "title": "Uppdraget i London",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1364.jpg",
+    "is_read": 0,
+    "cover_hash": "d09a56b414f0bd4c91028d513ddcca760aca3318edf971aaebcd8d6419d0d4de",
+    "cover_color": [
+      152,
+      125,
+      118
+    ]
+  },
+  {
+    "id": 1314,
+    "author": "Hanna Blixt, Jakob Blixt",
+    "title": "Gömstället i Amsterdam",
+    "series": "Historieväktarna",
+    "series_index": 2.0,
+    "cover_path": "covers/1314.jpg",
+    "is_read": 0,
+    "cover_hash": "2c3373ce296978f3319899578421a8635b771073aa138a96aff4f563130bbb3a",
+    "cover_color": [
+      128,
+      117,
+      117
     ]
   },
   {
@@ -6525,6 +7320,21 @@
     ]
   },
   {
+    "id": 1362,
+    "author": "Isabel Allende",
+    "title": "Violeta",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1362.jpg",
+    "is_read": 0,
+    "cover_hash": "405d5c2914f8db6e23bd90d4e068c5f92ee3d3c6c21762e17fe4d6edd97a5c32",
+    "cover_color": [
+      93,
+      70,
+      50
+    ]
+  },
+  {
     "id": 622,
     "author": "Isabel Ibañez",
     "title": "What the River Knows",
@@ -6537,6 +7347,21 @@
       57,
       48,
       36
+    ]
+  },
+  {
+    "id": 1358,
+    "author": "Isabel Ibañez",
+    "title": "Where the Library Hides",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1358.jpg",
+    "is_read": 0,
+    "cover_hash": "55a6d455fa9b61be36f68e55bd5ab642e03c295530ad0042cba0aa2c20d1065c",
+    "cover_color": [
+      57,
+      55,
+      64
     ]
   },
   {
@@ -6627,6 +7452,81 @@
       89,
       72,
       81
+    ]
+  },
+  {
+    "id": 1309,
+    "author": "J. K. Rowling",
+    "title": "Harry Potter och De Vises Sten",
+    "series": "Harry Potter SE",
+    "series_index": 1.0,
+    "cover_path": "covers/1309.jpg",
+    "is_read": 0,
+    "cover_hash": "e5332cd1802bb7fe6032906d99b0afe959e555e90e01910fe594fa38282c7bf8",
+    "cover_color": [
+      111,
+      26,
+      22
+    ]
+  },
+  {
+    "id": 1306,
+    "author": "J. K. Rowling",
+    "title": "Harry Potter och Dödsrelikerna",
+    "series": "Harry Potter SE",
+    "series_index": 7.0,
+    "cover_path": "covers/1306.jpg",
+    "is_read": 0,
+    "cover_hash": "88924c57af2ebff82f0326930b3f01cd3056744cedde7405201d1a7065abcaf7",
+    "cover_color": [
+      17,
+      67,
+      43
+    ]
+  },
+  {
+    "id": 1305,
+    "author": "J. K. Rowling",
+    "title": "Harry Potter och Fången från Azkaban",
+    "series": "Harry Potter SE",
+    "series_index": 3.0,
+    "cover_path": "covers/1305.jpg",
+    "is_read": 0,
+    "cover_hash": "127b9b936fb2955fb76dc2bc1d4129256cfc827a0cf0958745ea6c74645fb9b9",
+    "cover_color": [
+      70,
+      57,
+      109
+    ]
+  },
+  {
+    "id": 1303,
+    "author": "J. K. Rowling",
+    "title": "Harry Potter och Halvblodsprinsen",
+    "series": "Harry Potter SE",
+    "series_index": 6.0,
+    "cover_path": "covers/1303.jpg",
+    "is_read": 0,
+    "cover_hash": "a5683564864a3e059dc2d4e53b52d548919c86e9886fcb1c9f036294f7b12326",
+    "cover_color": [
+      87,
+      35,
+      60
+    ]
+  },
+  {
+    "id": 1302,
+    "author": "J. K. Rowling",
+    "title": "Harry Potter och Hemligheternas kammare",
+    "series": "Harry Potter SE",
+    "series_index": 2.0,
+    "cover_path": "covers/1302.jpg",
+    "is_read": 0,
+    "cover_hash": "b2e2d1d15c16648b31721c5de6e9f101700e9be479afaae7e8ba1bd20d880a9a",
+    "cover_color": [
+      27,
+      72,
+      55
     ]
   },
   {
@@ -6792,6 +7692,36 @@
       75,
       112,
       100
+    ]
+  },
+  {
+    "id": 1308,
+    "author": "J.K. Rowling",
+    "title": "Harry Potter och Den Flammande Bägaren",
+    "series": "Harry Potter SE",
+    "series_index": 4.0,
+    "cover_path": "covers/1308.jpg",
+    "is_read": 0,
+    "cover_hash": "4de802586027c758de74d968757568172abb661a102e3931caf90a4791a7040b",
+    "cover_color": [
+      28,
+      60,
+      77
+    ]
+  },
+  {
+    "id": 1307,
+    "author": "J.K. Rowling",
+    "title": "Harry Potter och Fenixorden",
+    "series": "Harry Potter SE",
+    "series_index": 5.0,
+    "cover_path": "covers/1307.jpg",
+    "is_read": 0,
+    "cover_hash": "30eaac7acaeb29ea037c7930475c904cd89ed1837a10bb56ed359bfa9a6f0e80",
+    "cover_color": [
+      135,
+      25,
+      45
     ]
   },
   {
@@ -6972,6 +7902,21 @@
       110,
       100,
       96
+    ]
+  },
+  {
+    "id": 1304,
+    "author": "Jason Rekulak",
+    "title": "Hidden Pictures",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1304.jpg",
+    "is_read": 0,
+    "cover_hash": "5412b9486820b47ed6b4c9b97def596d2af6b43bb37f4cbd0e3e987ae83bfc37",
+    "cover_color": [
+      42,
+      34,
+      33
     ]
   },
   {
@@ -7545,6 +8490,36 @@
     ]
   },
   {
+    "id": 1343,
+    "author": "Jennifer Saint",
+    "title": "Ariadne",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1343.jpg",
+    "is_read": 0,
+    "cover_hash": "0449ce03b2a630541c225dd350cdbc0fa764941be4d7aba9655427e4022f852b",
+    "cover_color": [
+      131,
+      71,
+      55
+    ]
+  },
+  {
+    "id": 1417,
+    "author": "Jenny Colgan",
+    "title": "Eindeloos dichtbij - Happy Ever After 3",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1417.jpg",
+    "is_read": 0,
+    "cover_hash": "a26edbd03bde9cdd61a041b7ee3757a7f95e07957c875ec1dc3db2717f09e791",
+    "cover_color": [
+      205,
+      192,
+      184
+    ]
+  },
+  {
     "id": 1244,
     "author": "Jenny Colgan",
     "title": "De kleine bakkerij aan het strand",
@@ -7722,6 +8697,21 @@
       127,
       159,
       180
+    ]
+  },
+  {
+    "id": 1414,
+    "author": "Jenny Colgan",
+    "title": "Het eilandhotel",
+    "series": "Mure Island",
+    "series_index": 4.0,
+    "cover_path": "covers/1414.jpg",
+    "is_read": 0,
+    "cover_hash": "df4cc2049b833c83f50a7f6e508b5b593e37b804a82f0d184cd6ea7dc943fb97",
+    "cover_color": [
+      190,
+      196,
+      194
     ]
   },
   {
@@ -8130,6 +9120,96 @@
     ]
   },
   {
+    "id": 1409,
+    "author": "Johan Egerkrans",
+    "title": "Nordiska gudar",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1409.jpg",
+    "is_read": 0,
+    "cover_hash": "3ea6bb960713ab88c0025c028d4db151b2bef2f548842390b265c29ee74b6efb",
+    "cover_color": [
+      144,
+      141,
+      134
+    ]
+  },
+  {
+    "id": 1328,
+    "author": "Johan Rundberg",
+    "title": "Den som vaktar flocken",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1328.jpg",
+    "is_read": 0,
+    "cover_hash": "7105018da329f63e9123679e9ad746addc55640fac7f90b2e1e9b5ba69da497e",
+    "cover_color": [
+      84,
+      70,
+      58
+    ]
+  },
+  {
+    "id": 1293,
+    "author": "Johan Rundberg",
+    "title": "Kärlekspizzan",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1293.jpg",
+    "is_read": 0,
+    "cover_hash": "d8be73c3e928463fdcb8c72a2639678d0abd1db4e3619d749922e596941f5e22",
+    "cover_color": [
+      131,
+      180,
+      207
+    ]
+  },
+  {
+    "id": 1327,
+    "author": "Johan Rundberg",
+    "title": "Dödsängeln",
+    "series": "Månvind & Hoff",
+    "series_index": 3.0,
+    "cover_path": "covers/1327.jpg",
+    "is_read": 0,
+    "cover_hash": "f9f9e0584d8195d61c784ee3410ac3f1ac6d74364d839617ce462561e884cc46",
+    "cover_color": [
+      79,
+      110,
+      103
+    ]
+  },
+  {
+    "id": 1283,
+    "author": "Johan Rundberg",
+    "title": "Nattkorpen",
+    "series": "Månvind & Hoff",
+    "series_index": 1.0,
+    "cover_path": "covers/1283.jpg",
+    "is_read": 0,
+    "cover_hash": "f181e85f626a05e97c644bc731cf263d5b9a2362c5c434ad923a20aad76e7c1b",
+    "cover_color": [
+      101,
+      136,
+      163
+    ]
+  },
+  {
+    "id": 1367,
+    "author": "Johan Rundberg",
+    "title": "Tjuvdrottningen",
+    "series": "Månvind & Hoff",
+    "series_index": 2.0,
+    "cover_path": "covers/1367.jpg",
+    "is_read": 0,
+    "cover_hash": "100b81371937917fe4f445eea33f656c8c4e164019390d85534f827b2daabc05",
+    "cover_color": [
+      144,
+      131,
+      108
+    ]
+  },
+  {
     "id": 321,
     "author": "John Green",
     "title": "An Abundance of Katherines",
@@ -8280,6 +9360,21 @@
     ]
   },
   {
+    "id": 1387,
+    "author": "John Marrs",
+    "title": "The Family Experiment",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1387.jpg",
+    "is_read": 0,
+    "cover_hash": "4ce95deda3594f7356ac1d556fc3317ad91d18b2b405a7d54f1252b850f185f3",
+    "cover_color": [
+      205,
+      218,
+      212
+    ]
+  },
+  {
     "id": 957,
     "author": "John Steinbeck",
     "title": "East of Eden",
@@ -8385,6 +9480,36 @@
     ]
   },
   {
+    "id": 1325,
+    "author": "Josie Silver",
+    "title": "Een dag in december",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1325.jpg",
+    "is_read": 0,
+    "cover_hash": "692f8775fb384b065d1880db3b7b2b24593fcc5039bc96772cbe9275e358b239",
+    "cover_color": [
+      103,
+      131,
+      153
+    ]
+  },
+  {
+    "id": 1277,
+    "author": "Josie Silver",
+    "title": "One Day in December",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1277.jpg",
+    "is_read": 0,
+    "cover_hash": "aa070e61d3a7d6f86c0227cb9152d4a7300f0c089fc24227c465877ed7e8d2a2",
+    "cover_color": [
+      123,
+      127,
+      160
+    ]
+  },
+  {
     "id": 359,
     "author": "Judy I. Lin",
     "title": "A Magic Steeped in Poison",
@@ -8487,6 +9612,21 @@
       51,
       45,
       33
+    ]
+  },
+  {
+    "id": 1377,
+    "author": "Kaliane Bradley",
+    "title": "The Ministry of Time: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1377.jpg",
+    "is_read": 0,
+    "cover_hash": "6f9308eda2f34e469517671ff2658f5c2d4e351b4f895497e44c2e8cc0ccf528",
+    "cover_color": [
+      56,
+      41,
+      31
     ]
   },
   {
@@ -8682,6 +9822,36 @@
       60,
       52,
       37
+    ]
+  },
+  {
+    "id": 1391,
+    "author": "Katherine Arden",
+    "title": "The Bear and the Nightingale",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1391.jpg",
+    "is_read": 0,
+    "cover_hash": "3804c1912f5dee97ec4da5c79d25ff2cb6145cf3d12722e475390156b2710ecd",
+    "cover_color": [
+      56,
+      58,
+      67
+    ]
+  },
+  {
+    "id": 1371,
+    "author": "Katherine Arden",
+    "title": "The Girl in the Tower",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1371.jpg",
+    "is_read": 0,
+    "cover_hash": "434ff83ce2cf3179d88f755f6a979860488d53a0e56778dde263782ee7cc23cd",
+    "cover_color": [
+      127,
+      75,
+      76
     ]
   },
   {
@@ -9060,6 +10230,21 @@
     ]
   },
   {
+    "id": 1369,
+    "author": "Kika Hatzopoulou",
+    "title": "Threads That Bind",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1369.jpg",
+    "is_read": 0,
+    "cover_hash": "c67c297af873219c8dd48de698ff1de23f9f0688f8850c1a01c0f7bfd6a602ea",
+    "cover_color": [
+      122,
+      112,
+      139
+    ]
+  },
+  {
     "id": 158,
     "author": "Kristen Ciccarelli",
     "title": "Heartless Hunter",
@@ -9087,6 +10272,66 @@
       98,
       54,
       37
+    ]
+  },
+  {
+    "id": 1357,
+    "author": "Kristin Cashore",
+    "title": "Winterkeep",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1357.jpg",
+    "is_read": 0,
+    "cover_hash": "176dac515712daa7ecfd98a1ed226527b95973f9adf5f3cbca7e3a3a78b87c24",
+    "cover_color": [
+      101,
+      109,
+      128
+    ]
+  },
+  {
+    "id": 1320,
+    "author": "Kristin Cashore",
+    "title": "Fire",
+    "series": "Graceling",
+    "series_index": 2.0,
+    "cover_path": "covers/1320.jpg",
+    "is_read": 0,
+    "cover_hash": "d373a43021e62f9742552908714a6d246d57542e867d9eb9db28347c0cf92f18",
+    "cover_color": [
+      152,
+      62,
+      53
+    ]
+  },
+  {
+    "id": 1311,
+    "author": "Kristin Cashore",
+    "title": "Graceling",
+    "series": "Graceling",
+    "series_index": 1.0,
+    "cover_path": "covers/1311.jpg",
+    "is_read": 0,
+    "cover_hash": "9356bb723fb3c5a76016cec9554f275e67e7299753db96374f05422d151b2913",
+    "cover_color": [
+      171,
+      159,
+      126
+    ]
+  },
+  {
+    "id": 1336,
+    "author": "Kristin Cashore",
+    "title": "Bitterblue",
+    "series": "Graceling Realm",
+    "series_index": 3.0,
+    "cover_path": "covers/1336.jpg",
+    "is_read": 0,
+    "cover_hash": "455e39f8f92c99edf869bd46de1759c683785c05ab1461e80b44087bccce0068",
+    "cover_color": [
+      99,
+      131,
+      159
     ]
   },
   {
@@ -9177,6 +10422,36 @@
       73,
       80,
       106
+    ]
+  },
+  {
+    "id": 1363,
+    "author": "Kristina Ohlsson",
+    "title": "Varulvens hemlighet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1363.jpg",
+    "is_read": 0,
+    "cover_hash": "f538891139777f588fdf4f55c46a083195e4cfb88c29b5ad227eaadb63540ed2",
+    "cover_color": [
+      97,
+      48,
+      31
+    ]
+  },
+  {
+    "id": 1323,
+    "author": "Kristina Ohlsson",
+    "title": "Fallet med den rysliga skuggan",
+    "series": "Spökbyrån",
+    "series_index": 1.0,
+    "cover_path": "covers/1323.jpg",
+    "is_read": 0,
+    "cover_hash": "a4802f505495b385e45b77a38965997b51f2f3368b850f962504f62ac171caad",
+    "cover_color": [
+      89,
+      81,
+      89
     ]
   },
   {
@@ -9315,6 +10590,21 @@
     ]
   },
   {
+    "id": 1392,
+    "author": "Laura Dave",
+    "title": "The Last Thing He Told Me: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1392.jpg",
+    "is_read": 0,
+    "cover_hash": "13019b0bcaab3e76c4b7522cfbda156f1966a328bb48f1b0ccb503ccdd1e3d2d",
+    "cover_color": [
+      119,
+      153,
+      133
+    ]
+  },
+  {
     "id": 168,
     "author": "Lauren Roberts",
     "title": "Fearless: The epic conclusion to the trilogy taking the world by storm!",
@@ -9372,6 +10662,21 @@
       45,
       42,
       30
+    ]
+  },
+  {
+    "id": 1374,
+    "author": "Lauren| Christina",
+    "title": "The Soulmate Equation",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1374.jpg",
+    "is_read": 0,
+    "cover_hash": "1cd28300ccc2ff8313b63653881d8f18b928c1b3907fd8c091bcad72df7392ed",
+    "cover_color": [
+      240,
+      178,
+      37
     ]
   },
   {
@@ -9975,6 +11280,21 @@
     ]
   },
   {
+    "id": 1408,
+    "author": "Lieselot Theys",
+    "title": "Onze hormonen, onderschatte helden",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1408.jpg",
+    "is_read": 0,
+    "cover_hash": "6b3e8f8eb5716d22f717a06d1c637fe0db196a35824ed0da3081429ab48e0703",
+    "cover_color": [
+      212,
+      200,
+      195
+    ]
+  },
+  {
     "id": 559,
     "author": "Lily King",
     "title": "Writers & Lovers",
@@ -9987,6 +11307,96 @@
       114,
       93,
       86
+    ]
+  },
+  {
+    "id": 1340,
+    "author": "Lin Hallberg",
+    "title": "Bästisboken",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1340.jpg",
+    "is_read": 0,
+    "cover_hash": "37f82c19d9b30a67e330e10e488aba6b7fb6887dbef29e331598a65aa5803f7e",
+    "cover_color": [
+      197,
+      147,
+      99
+    ]
+  },
+  {
+    "id": 1296,
+    "author": "Lin Hallberg",
+    "title": "Kärleksboken",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1296.jpg",
+    "is_read": 0,
+    "cover_hash": "16a3cb585cb6f1e598c2ce18a0496b0477103cdfb1eda0b1066f90e6cc578f15",
+    "cover_color": [
+      204,
+      114,
+      132
+    ]
+  },
+  {
+    "id": 1291,
+    "author": "Lin Hallberg",
+    "title": "Kompisboken",
+    "series": "Kompisboken",
+    "series_index": 1.0,
+    "cover_path": "covers/1291.jpg",
+    "is_read": 0,
+    "cover_hash": "e79c8478ac202fd91b570fdacf51691f10711df6305317f83c2269f0c42a38e3",
+    "cover_color": [
+      182,
+      136,
+      136
+    ]
+  },
+  {
+    "id": 1346,
+    "author": "Lin Hallberg, Margareta Nordqvist",
+    "title": "Alla älskar Sigge",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1346.jpg",
+    "is_read": 0,
+    "cover_hash": "48e6d038c121f7eef8a891e006593199a3a330ab126a78dc9acf6645e1188a8d",
+    "cover_color": [
+      131,
+      133,
+      124
+    ]
+  },
+  {
+    "id": 1322,
+    "author": "Lisa Aisato",
+    "title": "En fisk til Luna",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1322.jpg",
+    "is_read": 0,
+    "cover_hash": "673b8d9f8b2185272365708adf63fdcb2586054fa3793348ed8062967777e5cc",
+    "cover_color": [
+      200,
+      176,
+      142
+    ]
+  },
+  {
+    "id": 1276,
+    "author": "Lisa Aisato",
+    "title": "Livet - illustreret",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1276.jpg",
+    "is_read": 0,
+    "cover_hash": "52b82e3b485f23344de4b2652efa4165bf86d5437915cb954440c67a2fa6b0c8",
+    "cover_color": [
+      68,
+      110,
+      96
     ]
   },
   {
@@ -10022,7 +11432,7 @@
   {
     "id": 978,
     "author": "Liz Tomforde",
-    "title": "Play Along: the new sports romance for 2024 with steam, fake dating and a Vegas wedding - from the TikTok sensation (Windy City Series)",
+    "title": "Play Along",
     "series": "Windy City Series",
     "series_index": 4.0,
     "cover_path": "covers/978.jpg",
@@ -10037,7 +11447,7 @@
   {
     "id": 1022,
     "author": "Liz Tomforde",
-    "title": "Rewind It Back: The brand new 2025 sports romance from the bestselling author of MILE HIGH: with second-chance romance, found family, and a lot of spice…",
+    "title": "Rewind It Back",
     "series": "Windy City Series",
     "series_index": 5.0,
     "cover_path": "covers/1022.jpg",
@@ -10605,6 +12015,36 @@
     ]
   },
   {
+    "id": 1338,
+    "author": "Lynn Painter",
+    "title": "Betting on You",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1338.jpg",
+    "is_read": 0,
+    "cover_hash": "bbd7bbaf79ee7801420b60d96f25841b38248ce3ff5f4bfec808c9f323bcad54",
+    "cover_color": [
+      121,
+      185,
+      185
+    ]
+  },
+  {
+    "id": 1278,
+    "author": "Lynn Painter",
+    "title": "Nothing Like the Movies",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1278.jpg",
+    "is_read": 0,
+    "cover_hash": "e140fd1f36d3cb1119e2e1d0b77ae148c7c081bad84242eb0e733b8e50771f6b",
+    "cover_color": [
+      151,
+      121,
+      231
+    ]
+  },
+  {
     "id": 528,
     "author": "M. A. Carrick",
     "title": "The Mask of Mirrors",
@@ -10710,6 +12150,21 @@
     ]
   },
   {
+    "id": 1284,
+    "author": "Mafi| Tahereh",
+    "title": "This Woven Kingdom",
+    "series": "This Woven Kingdom",
+    "series_index": 1.0,
+    "cover_path": "covers/1284.jpg",
+    "is_read": 0,
+    "cover_hash": "6ea424720f0e2fa8ad14c0096951478eaeb7686b391954c1536427a6640f917f",
+    "cover_color": [
+      204,
+      148,
+      41
+    ]
+  },
+  {
     "id": 1255,
     "author": "Maggie Nelson",
     "title": "Bluets",
@@ -10725,6 +12180,21 @@
     ]
   },
   {
+    "id": 1347,
+    "author": "Malinda Lo",
+    "title": "A Scatter of Light",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1347.jpg",
+    "is_read": 0,
+    "cover_hash": "f16d3ee8888990f2121103afc888ec7415f883ecd64343be3a74e1a3a31654d3",
+    "cover_color": [
+      110,
+      98,
+      87
+    ]
+  },
+  {
     "id": 1150,
     "author": "Malinda Lo",
     "title": "Last Night at the Telegraph Club",
@@ -10737,6 +12207,81 @@
       64,
       64,
       60
+    ]
+  },
+  {
+    "id": 1299,
+    "author": "Maria Gripe",
+    "title": "Hugo",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1299.jpg",
+    "is_read": 0,
+    "cover_hash": "9d269c5f698c2c101c41d88dc91f623afac4aba507bfd7692b72c84008157d3c",
+    "cover_color": [
+      144,
+      140,
+      94
+    ]
+  },
+  {
+    "id": 1301,
+    "author": "Maria Gripe",
+    "title": "Hugo & Josefin",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1301.jpg",
+    "is_read": 0,
+    "cover_hash": "6088fa195e9dd0a0e66593f0cc7c86f61ca68f6140828ff9a48a1d2f0a7ad2fd",
+    "cover_color": [
+      165,
+      145,
+      84
+    ]
+  },
+  {
+    "id": 1294,
+    "author": "Maria Gripe",
+    "title": "Josefin",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1294.jpg",
+    "is_read": 0,
+    "cover_hash": "4711ef9775d9b0005a324b887d1f71125284bd00cedade7035f681f8823cfae9",
+    "cover_color": [
+      179,
+      174,
+      102
+    ]
+  },
+  {
+    "id": 1407,
+    "author": "Maria Gripe",
+    "title": "Pappa Pellerins dotter",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1407.jpg",
+    "is_read": 0,
+    "cover_hash": "ed1b6a923a338d68bf86cb0ba79362cec4af3b1e5f6e7fd128d1eb0906b18f12",
+    "cover_color": [
+      110,
+      127,
+      115
+    ]
+  },
+  {
+    "id": 1398,
+    "author": "Maria Isabel Sánches Vegara",
+    "title": "Små människor, stora drömmar – Astrid Lindgren",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1398.jpg",
+    "is_read": 0,
+    "cover_hash": "51fb8ac43179739e46fe95ed00a45fbffddf14385e7ca2dc605df7f0dafabee2",
+    "cover_color": [
+      199,
+      158,
+      80
     ]
   },
   {
@@ -11130,6 +12675,126 @@
     ]
   },
   {
+    "id": 1365,
+    "author": "Martin Olczak, Anna Sandler",
+    "title": "Trolldom i Gamla Stan",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1365.jpg",
+    "is_read": 0,
+    "cover_hash": "785813d7f4e3b004677c5e3172df1c1ba68ed16ae988c3d1ea075e736af737d8",
+    "cover_color": [
+      91,
+      102,
+      104
+    ]
+  },
+  {
+    "id": 1330,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Cykelmysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1330.jpg",
+    "is_read": 0,
+    "cover_hash": "58a19f05ab0d81480a400c73faf3611b04c37c5b4c3c18417ce44eb032cede74",
+    "cover_color": [
+      196,
+      183,
+      164
+    ]
+  },
+  {
+    "id": 1321,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Fängelsemysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1321.jpg",
+    "is_read": 0,
+    "cover_hash": "1d3b5e195b92cf32d1811f4d377fa25918f9557df49b686f5fb89b550e525fc0",
+    "cover_color": [
+      137,
+      106,
+      82
+    ]
+  },
+  {
+    "id": 1318,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Födelsedagsmysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1318.jpg",
+    "is_read": 0,
+    "cover_hash": "58f16df35c6df135ebf5eecdcab75ebe86af0d9e31fd5d4548e72e9f2a58604b",
+    "cover_color": [
+      160,
+      107,
+      106
+    ]
+  },
+  {
+    "id": 1289,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Kyrkomysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1289.jpg",
+    "is_read": 0,
+    "cover_hash": "4e98e4d25df235b8999380f60bb89a63f78f1a59261d78cec20a8b1b0253a121",
+    "cover_color": [
+      124,
+      114,
+      111
+    ]
+  },
+  {
+    "id": 1368,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Tidningsmysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1368.jpg",
+    "is_read": 0,
+    "cover_hash": "52c5461c06290caf3ce2674dcf65336bfb437bca5550fc7c7add1ff347b2ee91",
+    "cover_color": [
+      169,
+      172,
+      150
+    ]
+  },
+  {
+    "id": 1337,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Biblioteksmysteriet",
+    "series": "LasseMajas detektivbyrå",
+    "series_index": 13.0,
+    "cover_path": "covers/1337.jpg",
+    "is_read": 0,
+    "cover_hash": "da8d059ca38ba60bbaa210674969dba544df028a6978007cde9ec37db83135ae",
+    "cover_color": [
+      103,
+      114,
+      101
+    ]
+  },
+  {
+    "id": 1334,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Cafémysteriet",
+    "series": "LasseMajas detektivbyrå",
+    "series_index": 4.0,
+    "cover_path": "covers/1334.jpg",
+    "is_read": 0,
+    "cover_hash": "87725288125ddb96cb38c3e02cf6dd39ba41cb10f78a74a8029855187cbd7f4f",
+    "cover_color": [
+      160,
+      164,
+      154
+    ]
+  },
+  {
     "id": 347,
     "author": "Mary E. Pearson",
     "title": "Dance of Thieves",
@@ -11337,6 +13002,21 @@
       84,
       159,
       189
+    ]
+  },
+  {
+    "id": 1393,
+    "author": "Matt Haig",
+    "title": "The Comfort Book",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1393.jpg",
+    "is_read": 0,
+    "cover_hash": "357accda5c47a9cf0402a655c54245725fed1bdc9b3c8c4f83b16a0b39e5bf13",
+    "cover_color": [
+      124,
+      213,
+      226
     ]
   },
   {
@@ -11985,6 +13665,21 @@
     ]
   },
   {
+    "id": 1361,
+    "author": "Mélissa Da Costa",
+    "title": "Waar de zon de sneeuw raakt",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1361.jpg",
+    "is_read": 0,
+    "cover_hash": "4a31da55e21475dd0cb159e9d16cec20fb8768eb63ed635c468b1bd02c088964",
+    "cover_color": [
+      144,
+      147,
+      138
+    ]
+  },
+  {
     "id": 1251,
     "author": "N. K. Jemisin",
     "title": "De Obeliskpoort",
@@ -12075,6 +13770,51 @@
     ]
   },
   {
+    "id": 1388,
+    "author": "Namina Forna",
+    "title": "The Eternal Ones",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1388.jpg",
+    "is_read": 0,
+    "cover_hash": "ddd26fdba739d981cace7f13a3fc2a8820d18e10dc8e7a71b6b7100468ab85ff",
+    "cover_color": [
+      97,
+      90,
+      91
+    ]
+  },
+  {
+    "id": 1386,
+    "author": "Namina Forna",
+    "title": "The Gilded Ones",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1386.jpg",
+    "is_read": 0,
+    "cover_hash": "b2bfb135c62b04b9dd5375921778a32dc9d74b90292640fd9539e70f088effcf",
+    "cover_color": [
+      89,
+      100,
+      77
+    ]
+  },
+  {
+    "id": 1378,
+    "author": "Namina Forna",
+    "title": "The Merciless Ones",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1378.jpg",
+    "is_read": 0,
+    "cover_hash": "d2ce1343a3749636e233310d9f32741284d035c63c63b6e8907bfd9f3e4089dc",
+    "cover_color": [
+      111,
+      66,
+      46
+    ]
+  },
+  {
     "id": 959,
     "author": "Nana Kwame Adjei-Brenyah",
     "title": "Chain Gang All Stars",
@@ -12090,6 +13830,21 @@
     ]
   },
   {
+    "id": 1348,
+    "author": "Naomi Novik",
+    "title": "A Deadly Education",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1348.jpg",
+    "is_read": 0,
+    "cover_hash": "0ac8d116c454e4993f3f6ad1fa37ee5f3a8ba74a475593b6d8f6ff25231c618a",
+    "cover_color": [
+      71,
+      66,
+      54
+    ]
+  },
+  {
     "id": 603,
     "author": "Naomi Novik",
     "title": "Spinning Silver: A Novel",
@@ -12102,6 +13857,21 @@
       117,
       131,
       133
+    ]
+  },
+  {
+    "id": 1381,
+    "author": "Naomi Novik",
+    "title": "The Last Graduate",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1381.jpg",
+    "is_read": 0,
+    "cover_hash": "223014cdb01a1a70e41b2951ae55760236ca887924da0437b128cb2afdba0e1a",
+    "cover_color": [
+      41,
+      79,
+      48
     ]
   },
   {
@@ -12270,6 +14040,21 @@
     ]
   },
   {
+    "id": 1400,
+    "author": "Nisha J. Tuli",
+    "title": "Rule of the Aurora King",
+    "series": "Artefacts of Ouranos",
+    "series_index": 2.0,
+    "cover_path": "covers/1400.jpg",
+    "is_read": 0,
+    "cover_hash": "e5483868ec9e43d7ea32ad040819537d31e285783ca4f9f3fcfb36885ebce67f",
+    "cover_color": [
+      47,
+      73,
+      53
+    ]
+  },
+  {
     "id": 1207,
     "author": "Nisha J. Tuli",
     "title": "Tale of the Heart Queen (Artefacts of Ouranos)",
@@ -12282,6 +14067,21 @@
       131,
       45,
       44
+    ]
+  },
+  {
+    "id": 1366,
+    "author": "Nisha J. Tuli",
+    "title": "Trial of the Sun Queen",
+    "series": "Artefacts of Ouranos",
+    "series_index": 1.0,
+    "cover_path": "covers/1366.jpg",
+    "is_read": 0,
+    "cover_hash": "a5df2cdd5d191f0f619b39f09f4278b5914e4f6ff19f1961332b33a0d629537d",
+    "cover_color": [
+      112,
+      80,
+      37
     ]
   },
   {
@@ -12705,6 +14505,21 @@
     ]
   },
   {
+    "id": 1275,
+    "author": "Pedro Brugada",
+    "title": "Ons hart",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1275.jpg",
+    "is_read": 0,
+    "cover_hash": "e170f6fe15ea802a257c466aba763f8f60bc04cfad4c67cd8c12aae799d85df4",
+    "cover_color": [
+      224,
+      171,
+      183
+    ]
+  },
+  {
     "id": 759,
     "author": "Percival Everett",
     "title": "James",
@@ -13077,6 +14892,21 @@
       53,
       52,
       50
+    ]
+  },
+  {
+    "id": 1292,
+    "author": "R. F. Kuang",
+    "title": "Katabasis",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1292.jpg",
+    "is_read": 0,
+    "cover_hash": "f524ac0085f301e0c8ceada9d44cd917cbfc329d24f46d54bdd93a14357a49cc",
+    "cover_color": [
+      68,
+      82,
+      65
     ]
   },
   {
@@ -13455,6 +15285,21 @@
     ]
   },
   {
+    "id": 1295,
+    "author": "Reyhaneh Ahangaran",
+    "title": "Känsloboken",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1295.jpg",
+    "is_read": 0,
+    "cover_hash": "b68d40e70a62d978c7f3e2349165f1293577f4e747eb35dc051880d913715e4a",
+    "cover_color": [
+      75,
+      64,
+      75
+    ]
+  },
+  {
     "id": 75,
     "author": "Richard Adams",
     "title": "Watership Down",
@@ -13467,6 +15312,81 @@
       196,
       195,
       182
+    ]
+  },
+  {
+    "id": 1349,
+    "author": "Richard Osman",
+    "title": "The Bullet That Missed",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1349.jpg",
+    "is_read": 0,
+    "cover_hash": "cd116202e103d11f9dba74bea7ae58a3e6c4138de94565f377bce3dc02416f57",
+    "cover_color": [
+      174,
+      180,
+      163
+    ]
+  },
+  {
+    "id": 1382,
+    "author": "Richard Osman",
+    "title": "The Last Devil To Die",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1382.jpg",
+    "is_read": 0,
+    "cover_hash": "94b58d44bafd36897a25365c749f5ce783dc2676ae1c1d008d82b1cbcf6c48c4",
+    "cover_color": [
+      195,
+      176,
+      179
+    ]
+  },
+  {
+    "id": 1350,
+    "author": "Richard Osman",
+    "title": "The Man Who Died Twice (The Thursday Murder Club)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1350.jpg",
+    "is_read": 0,
+    "cover_hash": "0df4c984033b5d1998f8aead94072cff483a0ff27640c5d51798fef198fb8808",
+    "cover_color": [
+      182,
+      179,
+      180
+    ]
+  },
+  {
+    "id": 1352,
+    "author": "Richard Osman",
+    "title": "The Thursday Murder Club",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1352.jpg",
+    "is_read": 0,
+    "cover_hash": "acf3f405ffc8a35ccaf41488f38e466456c6f2738037762286ab4cde04fb8a6c",
+    "cover_color": [
+      206,
+      166,
+      160
+    ]
+  },
+  {
+    "id": 1360,
+    "author": "Richard Osman",
+    "title": "We Solve Murders",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1360.jpg",
+    "is_read": 0,
+    "cover_hash": "633663e2dee5a8d0b0c96a05dc0d861646ff64cf5710e9a314825a54e3f86a57",
+    "cover_color": [
+      195,
+      143,
+      132
     ]
   },
   {
@@ -13527,6 +15447,21 @@
       160,
       157,
       153
+    ]
+  },
+  {
+    "id": 1329,
+    "author": "Rick Riordan",
+    "title": "Daughter of the Deep",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1329.jpg",
+    "is_read": 0,
+    "cover_hash": "697a90fe975fcb63ed9f2b8441898c81e446094f0e234efe16da226d71979774",
+    "cover_color": [
+      70,
+      88,
+      83
     ]
   },
   {
@@ -14355,6 +16290,51 @@
     ]
   },
   {
+    "id": 1389,
+    "author": "S. A. Chakraborty",
+    "title": "The City of Brass",
+    "series": "The Daevabad Trilogy",
+    "series_index": 1.0,
+    "cover_path": "covers/1389.jpg",
+    "is_read": 0,
+    "cover_hash": "05094215c3374bf391e40da4e095754a5c47a9195eabde3af232d1880f8c053f",
+    "cover_color": [
+      130,
+      77,
+      36
+    ]
+  },
+  {
+    "id": 1324,
+    "author": "S. A. Chakraborty",
+    "title": "The Empire of Gold",
+    "series": "The Daevabad Trilogy",
+    "series_index": 3.0,
+    "cover_path": "covers/1324.jpg",
+    "is_read": 0,
+    "cover_hash": "e94ecf8f21c3d056bd3118ffc8452f1fa187baa9948b0d0bb69bd48ae265e5dd",
+    "cover_color": [
+      89,
+      55,
+      42
+    ]
+  },
+  {
+    "id": 1383,
+    "author": "S. A. Chakraborty",
+    "title": "The Kingdom of Copper (The Daevabad Trilogy, Book 2)",
+    "series": "The Daevabad Trilogy",
+    "series_index": 2.0,
+    "cover_path": "covers/1383.jpg",
+    "is_read": 0,
+    "cover_hash": "a1664cf94d72acfc2f9a3732c5739009f3f01de51516083d09da4ddd53305662",
+    "cover_color": [
+      65,
+      72,
+      51
+    ]
+  },
+  {
     "id": 863,
     "author": "Sabaa Tahir",
     "title": "A Reaper at the Gates (An Ember in the Ashes)",
@@ -14427,6 +16407,21 @@
       49,
       44,
       59
+    ]
+  },
+  {
+    "id": 1297,
+    "author": "Sally Rooney",
+    "title": "Intermezzo",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1297.jpg",
+    "is_read": 0,
+    "cover_hash": "ae4cfb97c072cdac37caee340537bc0b2cd512f0576db9305f8c731c38a303b9",
+    "cover_color": [
+      71,
+      84,
+      133
     ]
   },
   {
@@ -14622,6 +16617,21 @@
       38,
       88,
       143
+    ]
+  },
+  {
+    "id": 1415,
+    "author": "Sara Pennypacker",
+    "title": "Min vän Pax",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1415.jpg",
+    "is_read": 0,
+    "cover_hash": "a7148eba816baa4babc9e8abe1aef7bd24cd061c2b48ca97e77ba7781500722c",
+    "cover_color": [
+      173,
+      155,
+      134
     ]
   },
   {
@@ -15060,6 +17070,21 @@
     ]
   },
   {
+    "id": 1380,
+    "author": "Sarah Penner",
+    "title": "The Lost Apothecary",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1380.jpg",
+    "is_read": 0,
+    "cover_hash": "7174954c9e1383837a20a0cddcff5870f62be0c1616186437b6b4be7fbf75814",
+    "cover_color": [
+      50,
+      40,
+      88
+    ]
+  },
+  {
     "id": 37,
     "author": "Sasha Peyton Smith",
     "title": "The Rose Bargain",
@@ -15282,6 +17307,21 @@
       200,
       210,
       219
+    ]
+  },
+  {
+    "id": 1344,
+    "author": "Sierra Greer",
+    "title": "Annie Bot",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1344.jpg",
+    "is_read": 0,
+    "cover_hash": "10ac655ddc90520e0692fb1b7c5682958fe45dc849d048cb28778e49e8990917",
+    "cover_color": [
+      211,
+      126,
+      150
     ]
   },
   {
@@ -15765,6 +17805,21 @@
     ]
   },
   {
+    "id": 1399,
+    "author": "Stephen King",
+    "title": "Salem's Lot",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1399.jpg",
+    "is_read": 0,
+    "cover_hash": "8486c3f0805ec00cfbff20c465c55417311c60aa98d5716983ac887b1135750f",
+    "cover_color": [
+      81,
+      81,
+      80
+    ]
+  },
+  {
     "id": 32,
     "author": "Stephen King",
     "title": "The Stand",
@@ -16053,7 +18108,7 @@
     "id": 1253,
     "author": "Suzanne Collins",
     "title": "Dageraad boven de boete",
-    "series": "De Hongerspelen",
+    "series": "Hongerspelen",
     "series_index": 0.5,
     "cover_path": "covers/1253.jpg",
     "is_read": 0,
@@ -16242,6 +18297,66 @@
       98,
       111,
       117
+    ]
+  },
+  {
+    "id": 1288,
+    "author": "Sören Olsson, Leif Eriksson, Martin Svensson",
+    "title": "Luna och superkraften: Det osynliga barnet",
+    "series": "Luna och superkraften",
+    "series_index": 3.0,
+    "cover_path": "covers/1288.jpg",
+    "is_read": 0,
+    "cover_hash": "1b6c7a5126eaf271c191baa308b8299556a5be330c8bdc9f06bc086be5f5390b",
+    "cover_color": [
+      164,
+      77,
+      52
+    ]
+  },
+  {
+    "id": 1286,
+    "author": "Sören Olsson, Leif Eriksson, Martin Svensson",
+    "title": "Luna och superkraften: Kärleken",
+    "series": "Luna och superkraften",
+    "series_index": 2.0,
+    "cover_path": "covers/1286.jpg",
+    "is_read": 0,
+    "cover_hash": "8dbb2471c73d770583a327bcd45b5f1c76ba8d03cf828cec2871d090c0066bed",
+    "cover_color": [
+      126,
+      69,
+      89
+    ]
+  },
+  {
+    "id": 1285,
+    "author": "Sören Olsson, Leif Eriksson, Martin Svensson",
+    "title": "Luna och superkraften: Väderhemligheten",
+    "series": "Luna och superkraften",
+    "series_index": 4.0,
+    "cover_path": "covers/1285.jpg",
+    "is_read": 0,
+    "cover_hash": "0c2cfb53c59f7c7280434ca88bfcb7913af0aa604e5a64626b627f0d3cc53b69",
+    "cover_color": [
+      55,
+      95,
+      84
+    ]
+  },
+  {
+    "id": 1395,
+    "author": "Sören Olsson, Leif Eriksson, Martin Svensson, Illustrator by Andrea Femerstrand",
+    "title": "Luna och superkraften: Spökmysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1395.jpg",
+    "is_read": 0,
+    "cover_hash": "a87b854c6806aeda02e859d6aa2c89b0765a062d90d2ca76bde051fe190df5c5",
+    "cover_color": [
+      120,
+      85,
+      131
     ]
   },
   {
@@ -16467,6 +18582,21 @@
       188,
       164,
       128
+    ]
+  },
+  {
+    "id": 1281,
+    "author": "Tahereh Mafi",
+    "title": "These Infinite Threads",
+    "series": "This Woven Kingdom",
+    "series_index": 2.0,
+    "cover_path": "covers/1281.jpg",
+    "is_read": 0,
+    "cover_hash": "d8f6b370b536ed9b13433918132cd586817da18a7d3acf48e8237056c21a5a4b",
+    "cover_color": [
+      212,
+      131,
+      123
     ]
   },
   {
@@ -17775,6 +19905,21 @@
     ]
   },
   {
+    "id": 1406,
+    "author": "Tove Jansson",
+    "title": "Pappan och havet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1406.jpg",
+    "is_read": 0,
+    "cover_hash": "47cef9296127947ffb78cd4d2159d932369e7ac1f845f8766ed8673b5ea69cb1",
+    "cover_color": [
+      189,
+      212,
+      223
+    ]
+  },
+  {
     "id": 565,
     "author": "Tracy Deonn",
     "title": "Bloodmarked",
@@ -18432,6 +20577,36 @@
       239,
       134,
       148
+    ]
+  },
+  {
+    "id": 1384,
+    "author": "Zoraida Córdova",
+    "title": "The Inheritance of Orquídea Divina",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1384.jpg",
+    "is_read": 0,
+    "cover_hash": "109d6e17843556a9f6c950f5e6194e2bea0d5f616a7f73818a6e19f2948b0c94",
+    "cover_color": [
+      98,
+      50,
+      50
+    ]
+  },
+  {
+    "id": 1342,
+    "author": "Zoulfa Katouh",
+    "title": "As Long as the Lemon Trees Grow",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1342.jpg",
+    "is_read": 0,
+    "cover_hash": "4ca7835bb0b105e835d16421974768b733bf28b87c3e8d0dafbd74e739fce713",
+    "cover_color": [
+      96,
+      131,
+      142
     ]
   },
   {
