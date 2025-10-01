@@ -1,3 +1,4 @@
+
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { BooksService } from './books.service';
 
@@ -8,8 +9,9 @@ import { BooksService } from './books.service';
       <button
         type="button"
         (click)="isOpen.set(!isOpen())"
-        class="flex items-center gap-2 rounded border border-gray-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
-        [class.bg-indigo-50]="books.selectedLanguages().length > 0"
+        class="flex items-center gap-2 rounded border border-gray-700 bg-gray-900 px-3 py-2 text-sm text-gray-100 transition-colors hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        [class.bg-indigo-900]="books.selectedLanguages().length > 0"
+        [class.border-indigo-700]="books.selectedLanguages().length > 0"
       >
         <span>Languages</span>
         @if (books.selectedLanguages().length > 0) {
@@ -23,28 +25,29 @@ import { BooksService } from './books.service';
       </button>
 
       @if (isOpen()) {
-        <div class="absolute right-0 z-10 mt-2 w-48 rounded-md border border-gray-200 bg-white shadow-lg">
+        <div class="absolute right-0 z-10 mt-2 w-56 rounded-md border border-gray-700 bg-gray-900 shadow-xl">
           <div class="p-2">
             <button
               type="button"
               (click)="toggleAll()"
-              class="w-full rounded px-3 py-2 text-left text-sm hover:bg-gray-100"
+              class="w-full rounded px-3 py-2 text-left text-sm text-gray-100 transition-colors hover:bg-gray-800"
               [class.font-semibold]="books.selectedLanguages().length === 0"
+              [class.text-indigo-400]="books.selectedLanguages().length === 0"
             >
               All Languages
             </button>
 
-            <div class="my-2 border-t border-gray-200"></div>
+            <div class="my-2 border-t border-gray-700"></div>
 
             @for (lang of books.availableLanguages(); track lang) {
-              <label class="flex cursor-pointer items-center gap-2 rounded px-3 py-2 text-sm hover:bg-gray-100">
+              <label class="flex cursor-pointer items-center gap-2 rounded px-3 py-2 text-sm text-gray-100 transition-colors hover:bg-gray-800">
                 <input
                   type="checkbox"
                   [checked]="books.selectedLanguages().includes(lang)"
                   (change)="toggleLanguage(lang)"
-                  class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                  class="h-4 w-4 rounded border-gray-600 bg-gray-800 text-indigo-600 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-gray-900"
                 />
-                <span class="uppercase">{{ lang }}</span>
+                <span>{{ getLanguageName(lang) }}</span>
               </label>
             }
           </div>
@@ -60,6 +63,23 @@ import { BooksService } from './books.service';
 export class LanguageFilterComponent {
   protected readonly books = inject(BooksService);
   protected readonly isOpen = signal(false);
+
+  private readonly languageNames: Record<string, string> = {
+    dan: 'Danish',
+    deu: 'German',
+    eng: 'English',
+    fra: 'French',
+    ita: 'Italian',
+    nld: 'Dutch',
+    nob: 'Norwegian Bokmål',
+    nor: 'Norwegian',
+    spa: 'Spanish',
+    swe: 'Swedish',
+  };
+
+  protected getLanguageName(code: string): string {
+    return this.languageNames[code] || code.toUpperCase();
+  }
 
   toggleLanguage(lang: string): void {
     const current = this.books.selectedLanguages();
