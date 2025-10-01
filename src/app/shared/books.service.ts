@@ -12,6 +12,7 @@ export interface Book {
   series_index: number | null;
   cover_path: string;
   is_read: 0 | 1;
+  language?: string;
 }
 
 @Injectable({ providedIn: 'root' })
@@ -26,17 +27,29 @@ export class BooksService {
       shareReplay(1)
     );
 
+  // Load languages
+  private languages$ = this.http
+    .get<string[]>('data/languages.json')
+    .pipe(shareReplay(1));
+
   // Expose as signal for template ergonomics
   readonly books = toSignal(this.books$, { initialValue: [] as Book[] });
+  readonly availableLanguages = toSignal(this.languages$, { initialValue: [] as string[] });
 
   // Search text as signal
   readonly search = signal('');
 
+  // Selected languages as signal (empty array means all languages)
+  readonly selectedLanguages = signal<string[]>([]);
+
   // derived filtered + sorted list
   readonly filteredSorted = computed(() => {
     const q = this.search().trim().toLowerCase();
+    const langs = this.selectedLanguages();
     const list = this.books();
-    const filtered = q
+
+    // filter by search text
+    const searchFiltered = q
       ? list.filter((b) => {
           const a = b.author?.toLowerCase() ?? '';
           const t = b.title?.toLowerCase() ?? '';
@@ -44,6 +57,12 @@ export class BooksService {
           return a.includes(q) || t.includes(q) || s.includes(q);
         })
       : list;
+
+    // Filter by languages (if any selected)
+    const filtered = langs.length > 0
+      ? searchFiltered.filter((b) => langs.includes(b.language || ''))
+      : searchFiltered;
+
     return [...filtered].sort(this.compareForCovers);
   });
 
@@ -56,6 +75,7 @@ export class BooksService {
     series_index: b.series_index != null ? Number(b.series_index) : null,
     cover_path: String(b.cover_path || ''),
     is_read: Number(b.is_read || 0) as 0 | 1,
+    language: b.language ? String(b.language).trim() : undefined,
   });
 
   private compareForCovers = (a: Book, b: Book): number => {
