@@ -13,6 +13,9 @@ interface SeriesInfo {
   name: string;
   count: number;
   isComplete: boolean;
+  booksRead: number;
+  isStarted: boolean;
+  isFinished: boolean;
 }
 
 interface SeriesCountDistribution {
@@ -141,6 +144,105 @@ interface AuthorCountDistribution {
                 <div class="w-20 text-right text-xs text-gray-400">{{ dist.authorCount }} {{ dist.authorCount === 1 ? 'author' : 'authors' }}</div>
               </div>
             }
+          </div>
+        </div>
+      </section>
+
+      <!-- Reading Progress -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-200 mb-4">Reading Progress</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+          <!-- Total Books Read -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Total Books Read</div>
+            <div class="text-4xl font-bold text-indigo-400">{{ readingProgress().totalBooksRead }}</div>
+            <div class="text-gray-400 text-xs mt-2">{{ readingProgress().readPercentage.toFixed(1) }}% of library</div>
+          </div>
+
+          <!-- Standalone Books Read -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Standalone Books Read</div>
+            <div class="text-4xl font-bold text-violet-400">{{ readingProgress().standaloneBooksRead }}</div>
+            <div class="text-gray-400 text-xs mt-2">of {{ readingProgress().totalStandaloneBooks }} standalone</div>
+          </div>
+
+          <!-- Series Books Read -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Series Books Read</div>
+            <div class="text-4xl font-bold text-cyan-400">{{ readingProgress().seriesBooksRead }}</div>
+            <div class="text-gray-400 text-xs mt-2">of {{ readingProgress().totalSeriesBooks }} in series</div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+          <!-- Series Started -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Series Started</div>
+            <div class="text-4xl font-bold text-blue-400">{{ readingProgress().started }}</div>
+          </div>
+
+          <!-- Series In Progress -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">In Progress</div>
+            <div class="text-4xl font-bold text-amber-400">{{ readingProgress().inProgress }}</div>
+          </div>
+
+          <!-- Series Finished -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Series Finished</div>
+            <div class="text-4xl font-bold text-emerald-400">{{ readingProgress().finished }}</div>
+          </div>
+
+          <!-- Series Not Started -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <div class="text-gray-400 text-sm uppercase tracking-wide mb-2">Not Started</div>
+            <div class="text-4xl font-bold text-gray-500">{{ readingProgress().notStarted }}</div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <!-- Longest Series Being Read -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Longest Series Being Read</h3>
+            <div class="space-y-2">
+              @for (series of longestSeriesBeingRead(); track series.name) {
+                <div class="flex items-center gap-3">
+                  <a
+                    (click)="navigateToSeries(series.name)"
+                    class="flex-1 text-sm text-gray-200 truncate hover:text-indigo-400 cursor-pointer transition-colors"
+                    [title]="series.name"
+                  >{{ series.name }}</a>
+                  <div class="text-xs text-gray-400">{{ series.booksRead }}/{{ series.count }}</div>
+                  <div class="w-16 text-right">
+                    <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-amber-500/20 text-amber-300">
+                      {{ series.count }}
+                    </span>
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Longest Series Finished -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Longest Series Finished</h3>
+            <div class="space-y-2">
+              @for (series of longestSeriesFinished(); track series.name) {
+                <div class="flex items-center gap-3">
+                  <a
+                    (click)="navigateToSeries(series.name)"
+                    class="flex-1 text-sm text-gray-200 truncate hover:text-indigo-400 cursor-pointer transition-colors"
+                    [title]="series.name"
+                  >{{ series.name }}</a>
+                  <div class="w-16 text-right">
+                    <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-emerald-500/20 text-emerald-300">
+                      {{ series.count }}
+                    </span>
+                  </div>
+                </div>
+              }
+            </div>
           </div>
         </div>
       </section>
@@ -394,10 +496,18 @@ export default class StatisticsComponent {
         isComplete = false;
       }
 
+      // Calculate reading progress
+      const booksRead = info.books.filter(b => b.is_read === 1).length;
+      const isStarted = booksRead > 0;
+      const isFinished = booksRead === info.books.length;
+
       result.push({
         name,
         count: info.books.length,
         isComplete,
+        booksRead,
+        isStarted,
+        isFinished,
       });
     }
 
@@ -511,5 +621,56 @@ export default class StatisticsComponent {
     }
 
     return { average, median };
+  });
+
+  protected readonly readingProgress = computed(() => {
+    const allSeries = this.allSeriesInfo();
+    const started = allSeries.filter(s => s.isStarted).length;
+    const finished = allSeries.filter(s => s.isFinished).length;
+    const inProgress = started - finished;
+    const notStarted = allSeries.length - started;
+
+    // Calculate total books read
+    const allBooks = this.books.books();
+    const totalBooksRead = allBooks.filter(b => b.is_read === 1).length;
+    const totalBooks = allBooks.length;
+    const readPercentage = totalBooks > 0 ? (totalBooksRead / totalBooks) * 100 : 0;
+
+    // Calculate standalone books (books without series)
+    const standaloneBooks = allBooks.filter(b => !b.series?.trim());
+    const standaloneBooksRead = standaloneBooks.filter(b => b.is_read === 1).length;
+    const totalStandaloneBooks = standaloneBooks.length;
+
+    // Calculate series books
+    const seriesBooks = allBooks.filter(b => b.series?.trim());
+    const seriesBooksRead = seriesBooks.filter(b => b.is_read === 1).length;
+    const totalSeriesBooks = seriesBooks.length;
+
+    return {
+      started,
+      inProgress,
+      finished,
+      notStarted,
+      totalBooksRead,
+      readPercentage,
+      standaloneBooksRead,
+      totalStandaloneBooks,
+      seriesBooksRead,
+      totalSeriesBooks,
+    };
+  });
+
+  protected readonly longestSeriesBeingRead = computed(() => {
+    return [...this.allSeriesInfo()]
+      .filter(s => s.isStarted && !s.isFinished)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+  });
+
+  protected readonly longestSeriesFinished = computed(() => {
+    return [...this.allSeriesInfo()]
+      .filter(s => s.isFinished)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
   });
 }
