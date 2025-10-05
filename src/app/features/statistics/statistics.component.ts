@@ -44,20 +44,18 @@ interface LanguageStats {
       <section class="mb-8">
         <h2 class="text-2xl font-semibold text-gray-200 mb-4">Language Distribution</h2>
         <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
-          <div class="space-y-4">
+          <div class="space-y-2">
             @for (lang of languageStats(); track lang.code) {
-              <div class="space-y-2">
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-gray-200 font-medium">{{ lang.name }}</span>
-                  <span class="text-gray-400">{{ lang.count }} books ({{ lang.percentage.toFixed(1) }}%)</span>
-                </div>
-                <div class="w-full bg-gray-700 rounded-full h-3 overflow-hidden">
+              <div class="flex items-center gap-3">
+                <div class="w-24 text-sm text-gray-200 font-medium truncate">{{ lang.name }}</div>
+                <div class="flex-1 bg-gray-700 rounded-full h-6 overflow-hidden relative">
                   <div
                     class="h-full rounded-full transition-all duration-300"
                     [style.width.%]="lang.percentage"
                     [style.backgroundColor]="getBarColor(lang.code)"
                   ></div>
                 </div>
+                <div class="w-28 text-right text-xs text-gray-400">{{ lang.count }} ({{ lang.percentage.toFixed(1) }}%)</div>
               </div>
             }
           </div>
