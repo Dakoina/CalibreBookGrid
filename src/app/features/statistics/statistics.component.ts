@@ -72,7 +72,11 @@ interface AuthorCountDistribution {
           <div class="space-y-2">
             @for (lang of languageStats(); track lang.code) {
               <div class="flex items-center gap-3">
-                <div class="w-24 text-sm text-gray-200 font-medium truncate">{{ lang.name }}</div>
+                <a
+                  (click)="navigateToLanguage(lang.code)"
+                  class="w-24 text-sm text-gray-200 font-medium truncate hover:text-indigo-400 cursor-pointer transition-colors"
+                  [title]="'Filter by ' + lang.name"
+                >{{ lang.name }}</a>
                 <div class="flex-1 bg-gray-700 rounded-full h-6 overflow-hidden relative">
                   <div
                     class="h-full rounded-full transition-all duration-300"
@@ -558,6 +562,10 @@ export default class StatisticsComponent {
   protected navigateToSeries(seriesName: string): void {
     const seriesId = encodeURIComponent(seriesName);
     this.router.navigate(['/series'], { fragment: `series-${seriesId}` });
+  }
+
+  protected navigateToLanguage(languageCode: string): void {
+    this.router.navigate(['/covers'], { queryParams: { language: languageCode } });
   }
 
   protected readonly allAuthorInfo = computed((): AuthorInfo[] => {

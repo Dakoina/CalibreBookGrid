@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { BooksService } from '../../shared/books.service';
 import { ThumbnailSizeService } from '../../shared/thumbnail-size.service';
 import { BookCoverComponent } from '../../shared/book-cover';
@@ -30,6 +31,19 @@ import { SizeControlComponent } from '../../shared/size-control';
 export default class CoversComponent {
   protected readonly books = inject(BooksService);
   protected readonly sizes = inject(ThumbnailSizeService);
+  private readonly route = inject(ActivatedRoute);
+
+  constructor() {
+    // Handle language filter from query params
+    effect(() => {
+      this.route.queryParams.subscribe(params => {
+        if (params['language']) {
+          const language = params['language'];
+          this.books.selectedLanguages.set([language]);
+        }
+      });
+    });
+  }
 
   protected readonly gridTemplate = computed(() => {
     const w = this.sizes.size() * 2/3;
