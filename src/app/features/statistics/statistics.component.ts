@@ -20,6 +20,16 @@ interface SeriesCountDistribution {
   seriesCount: number;
 }
 
+interface AuthorInfo {
+  name: string;
+  count: number;
+}
+
+interface AuthorCountDistribution {
+  bookCount: number;
+  authorCount: number;
+}
+
 @Component({
   selector: 'statistics-page',
   imports: [],
@@ -68,6 +78,67 @@ interface SeriesCountDistribution {
                   ></div>
                 </div>
                 <div class="w-28 text-right text-xs text-gray-400">{{ lang.count }} ({{ lang.percentage.toFixed(1) }}%)</div>
+              </div>
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- Author Statistics -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-200 mb-4">Author Statistics</h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+          <!-- Most Prolific Authors -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Most Prolific Authors (most books)</h3>
+            <div class="space-y-2">
+              @for (author of topAuthors(); track author.name) {
+                <div class="flex items-center gap-3">
+                  <div class="flex-1 text-sm text-gray-200 truncate" [title]="author.name">{{ author.name }}</div>
+                  <div class="w-16 text-right">
+                    <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-emerald-500/20 text-emerald-300">
+                      {{ author.count }}
+                    </span>
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Author Metrics -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Books per Author</h3>
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-sm text-gray-300">Average</span>
+                <span class="text-2xl font-bold text-indigo-400">{{ authorMetrics().average }}</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-sm text-gray-300">Median</span>
+                <span class="text-2xl font-bold text-violet-400">{{ authorMetrics().median }}</span>
+              </div>
+              <div class="text-xs text-gray-400 mt-4">
+                {{ totalBooks() }} books across {{ uniqueAuthors() }} authors
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Author Distribution -->
+        <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+          <h3 class="text-lg font-semibold text-gray-200 mb-3">Author Distribution</h3>
+          <div class="space-y-2">
+            @for (dist of authorDistribution(); track dist.bookCount) {
+              <div class="flex items-center gap-3">
+                <div class="w-32 text-sm text-gray-200">{{ dist.bookCount }} {{ dist.bookCount === 1 ? 'book' : 'books' }}</div>
+                <div class="flex-1 bg-gray-700 rounded-full h-6 overflow-hidden relative">
+                  <div
+                    class="h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-300"
+                    [style.width.%]="(dist.authorCount / maxAuthorCount()) * 100"
+                  ></div>
+                </div>
+                <div class="w-20 text-right text-xs text-gray-400">{{ dist.authorCount }} {{ dist.authorCount === 1 ? 'author' : 'authors' }}</div>
               </div>
             }
           </div>
@@ -378,4 +449,67 @@ export default class StatisticsComponent {
     const seriesId = encodeURIComponent(seriesName);
     this.router.navigate(['/series'], { fragment: `series-${seriesId}` });
   }
+
+  protected readonly allAuthorInfo = computed((): AuthorInfo[] => {
+    const authorMap = new Map<string, number>();
+
+    for (const book of this.books.books()) {
+      const author = book.author?.trim() || 'Unknown';
+      authorMap.set(author, (authorMap.get(author) || 0) + 1);
+    }
+
+    const result: AuthorInfo[] = [];
+    for (const [name, count] of authorMap) {
+      result.push({ name, count });
+    }
+
+    return result;
+  });
+
+  protected readonly topAuthors = computed(() => {
+    return [...this.allAuthorInfo()]
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 15);
+  });
+
+  protected readonly authorDistribution = computed((): AuthorCountDistribution[] => {
+    const distribution = new Map<number, number>();
+
+    for (const author of this.allAuthorInfo()) {
+      const count = distribution.get(author.count) || 0;
+      distribution.set(author.count, count + 1);
+    }
+
+    const result: AuthorCountDistribution[] = [];
+    for (const [bookCount, authorCount] of distribution) {
+      result.push({ bookCount, authorCount });
+    }
+
+    return result.sort((a, b) => a.bookCount - b.bookCount);
+  });
+
+  protected readonly maxAuthorCount = computed(() => {
+    const dist = this.authorDistribution();
+    return dist.length > 0 ? Math.max(...dist.map(d => d.authorCount)) : 1;
+  });
+
+  protected readonly authorMetrics = computed(() => {
+    const total = this.totalBooks();
+    const authors = this.uniqueAuthors();
+    const average = authors > 0 ? (total / authors).toFixed(1) : '0.0';
+
+    // Calculate median
+    const authorCounts = this.allAuthorInfo().map(a => a.count).sort((a, b) => a - b);
+    let median = 0;
+    if (authorCounts.length > 0) {
+      const mid = Math.floor(authorCounts.length / 2);
+      if (authorCounts.length % 2 === 0) {
+        median = Math.round((authorCounts[mid - 1] + authorCounts[mid]) / 2);
+      } else {
+        median = authorCounts[mid];
+      }
+    }
+
+    return { average, median };
+  });
 }
