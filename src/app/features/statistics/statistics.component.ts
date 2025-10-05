@@ -297,17 +297,26 @@ export default class StatisticsComponent {
       // Check if series is complete (no gaps in indices)
       let isComplete = true;
       if (info.indices.length > 0) {
-        const sortedIndices = [...info.indices].sort((a, b) => a - b);
-        // Check for gaps and if it starts at 1
-        if (sortedIndices[0] !== 1) {
-          isComplete = false;
-        } else {
-          for (let i = 1; i < sortedIndices.length; i++) {
-            if (sortedIndices[i] !== sortedIndices[i - 1] + 1) {
-              isComplete = false;
-              break;
+        // Filter out zeros and non-integers (0.5, 1.5, etc.), keep only positive integers
+        const integerIndices = info.indices.filter(idx => Number.isInteger(idx) && idx >= 1);
+
+        if (integerIndices.length > 0) {
+          const sortedIndices = [...integerIndices].sort((a, b) => a - b);
+          // Must start at 1
+          if (sortedIndices[0] !== 1) {
+            isComplete = false;
+          } else {
+            // Check for gaps in consecutive integers
+            for (let i = 1; i < sortedIndices.length; i++) {
+              if (sortedIndices[i] !== sortedIndices[i - 1] + 1) {
+                isComplete = false;
+                break;
+              }
             }
           }
+        } else {
+          // No valid integer indices means we can't determine completeness
+          isComplete = false;
         }
       } else {
         // No indices means we can't determine completeness
