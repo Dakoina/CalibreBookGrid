@@ -192,6 +192,22 @@
     ]
   },
   {
+    "id": 1558,
+    "author": "Addison Moore",
+    "title": "Pumpkin Spice Sacrifice",
+    "series": "Murder in the Mix",
+    "series_index": 3.0,
+    "cover_path": "covers/1558.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "0c8c1302d80e4d69ef8c592924163d3849c2f4abdd544534e185015c12877010",
+    "cover_color": [
+      168,
+      109,
+      73
+    ]
+  },
+  {
     "id": 739,
     "author": "Adolfo Bioy Casares, Ruth L. C. Simms",
     "title": "The Invention of Morel",
@@ -2595,7 +2611,7 @@
     "id": 363,
     "author": "Brian Herbert, Kevin J. Anderson",
     "title": "Hunters of Dune",
-    "series": "Dune",
+    "series": "Dune extra",
     "series_index": 24.0,
     "cover_path": "covers/363.webp",
     "is_read": 0,
@@ -2611,7 +2627,7 @@
     "id": 361,
     "author": "Brian Herbert, Kevin J. Anderson",
     "title": "Sandworms of Dune",
-    "series": "Dune",
+    "series": "Dune extra",
     "series_index": 26.0,
     "cover_path": "covers/361.webp",
     "is_read": 0,
