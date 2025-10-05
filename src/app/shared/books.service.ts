@@ -13,6 +13,7 @@ export interface Book {
   cover_path: string;
   is_read: 0 | 1;
   language?: string;
+  cover_color?: [number, number, number];
 }
 
 @Injectable({ providedIn: 'root' })
@@ -76,6 +77,7 @@ export class BooksService {
     cover_path: String(b.cover_path || ''),
     is_read: Number(b.is_read || 0) as 0 | 1,
     language: b.language ? String(b.language).trim() : undefined,
+    cover_color: b.cover_color ? b.cover_color : undefined,
   });
 
   private compareForCovers = (a: Book, b: Book): number => {
