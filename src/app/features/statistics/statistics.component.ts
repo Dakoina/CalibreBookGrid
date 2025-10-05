@@ -8,6 +8,17 @@ interface LanguageStats {
   percentage: number;
 }
 
+interface SeriesInfo {
+  name: string;
+  count: number;
+  isComplete: boolean;
+}
+
+interface SeriesCountDistribution {
+  bookCount: number;
+  seriesCount: number;
+}
+
 @Component({
   selector: 'statistics-page',
   imports: [],
@@ -56,6 +67,82 @@ interface LanguageStats {
                   ></div>
                 </div>
                 <div class="w-28 text-right text-xs text-gray-400">{{ lang.count }} ({{ lang.percentage.toFixed(1) }}%)</div>
+              </div>
+            }
+          </div>
+        </div>
+      </section>
+
+      <!-- Series Statistics -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-200 mb-4">Series Statistics</h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+          <!-- Top 10 Largest Series -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Largest Series</h3>
+            <div class="space-y-2">
+              @for (series of top10Series(); track series.name) {
+                <div class="flex items-center gap-3">
+                  <div class="flex-1 text-sm text-gray-200 truncate" [title]="series.name">{{ series.name }}</div>
+                  <div class="w-16 text-right">
+                    <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-indigo-500/20 text-indigo-300">
+                      {{ series.count }}
+                    </span>
+                  </div>
+                  @if (series.isComplete) {
+                    <div class="w-5 text-emerald-400" title="Complete series">✓</div>
+                  } @else {
+                    <div class="w-5 text-amber-400" title="Has gaps">⚠</div>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+
+          <!-- Series Completion -->
+          <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+            <h3 class="text-lg font-semibold text-gray-200 mb-3">Series Completion</h3>
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <span class="text-sm text-gray-300">Complete Series</span>
+                <span class="text-2xl font-bold text-emerald-400">{{ seriesCompletion().complete }}</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <span class="text-sm text-gray-300">Series with Gaps</span>
+                <span class="text-2xl font-bold text-amber-400">{{ seriesCompletion().withGaps }}</span>
+              </div>
+              <div class="w-full bg-gray-700 rounded-full h-4 overflow-hidden">
+                <div
+                  class="h-full bg-emerald-500 float-left"
+                  [style.width.%]="seriesCompletion().completePercentage"
+                ></div>
+                <div
+                  class="h-full bg-amber-500"
+                  [style.width.%]="seriesCompletion().gapsPercentage"
+                ></div>
+              </div>
+              <div class="text-xs text-gray-400 text-center">
+                {{ seriesCompletion().completePercentage.toFixed(1) }}% complete
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Series Size Distribution -->
+        <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+          <h3 class="text-lg font-semibold text-gray-200 mb-3">Series Size Distribution</h3>
+          <div class="space-y-2">
+            @for (dist of seriesDistribution(); track dist.bookCount) {
+              <div class="flex items-center gap-3">
+                <div class="w-32 text-sm text-gray-200">{{ dist.bookCount }} {{ dist.bookCount === 1 ? 'book' : 'books' }}</div>
+                <div class="flex-1 bg-gray-700 rounded-full h-6 overflow-hidden relative">
+                  <div
+                    class="h-full rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 transition-all duration-300"
+                    [style.width.%]="(dist.seriesCount / maxSeriesCount()) * 100"
+                  ></div>
+                </div>
+                <div class="w-20 text-right text-xs text-gray-400">{{ dist.seriesCount }} {{ dist.seriesCount === 1 ? 'series' : 'series' }}</div>
               </div>
             }
           </div>
@@ -180,4 +267,95 @@ export default class StatisticsComponent {
     const index = code.charCodeAt(0) % colors.length;
     return colors[index];
   }
+
+  protected readonly allSeriesInfo = computed((): SeriesInfo[] => {
+    const seriesMap = new Map<string, { books: any[], indices: number[] }>();
+
+    for (const book of this.books.books()) {
+      if (!book.series?.trim()) continue;
+
+      const series = book.series.trim();
+      if (!seriesMap.has(series)) {
+        seriesMap.set(series, { books: [], indices: [] });
+      }
+
+      const info = seriesMap.get(series)!;
+      info.books.push(book);
+      if (book.series_index != null) {
+        info.indices.push(book.series_index);
+      }
+    }
+
+    const result: SeriesInfo[] = [];
+    for (const [name, info] of seriesMap) {
+      // Check if series is complete (no gaps in indices)
+      let isComplete = true;
+      if (info.indices.length > 0) {
+        const sortedIndices = [...info.indices].sort((a, b) => a - b);
+        // Check for gaps and if it starts at 1
+        if (sortedIndices[0] !== 1) {
+          isComplete = false;
+        } else {
+          for (let i = 1; i < sortedIndices.length; i++) {
+            if (sortedIndices[i] !== sortedIndices[i - 1] + 1) {
+              isComplete = false;
+              break;
+            }
+          }
+        }
+      } else {
+        // No indices means we can't determine completeness
+        isComplete = false;
+      }
+
+      result.push({
+        name,
+        count: info.books.length,
+        isComplete,
+      });
+    }
+
+    return result;
+  });
+
+  protected readonly top10Series = computed(() => {
+    return [...this.allSeriesInfo()]
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+  });
+
+  protected readonly seriesDistribution = computed((): SeriesCountDistribution[] => {
+    const distribution = new Map<number, number>();
+
+    for (const series of this.allSeriesInfo()) {
+      const count = distribution.get(series.count) || 0;
+      distribution.set(series.count, count + 1);
+    }
+
+    const result: SeriesCountDistribution[] = [];
+    for (const [bookCount, seriesCount] of distribution) {
+      result.push({ bookCount, seriesCount });
+    }
+
+    return result.sort((a, b) => a.bookCount - b.bookCount);
+  });
+
+  protected readonly maxSeriesCount = computed(() => {
+    const dist = this.seriesDistribution();
+    return dist.length > 0 ? Math.max(...dist.map(d => d.seriesCount)) : 1;
+  });
+
+  protected readonly seriesCompletion = computed(() => {
+    const allSeries = this.allSeriesInfo();
+    const complete = allSeries.filter(s => s.isComplete).length;
+    const withGaps = allSeries.length - complete;
+    const total = allSeries.length;
+
+    return {
+      complete,
+      withGaps,
+      completePercentage: total > 0 ? (complete / total) * 100 : 0,
+      gapsPercentage: total > 0 ? (withGaps / total) * 100 : 0,
+    };
+  });
 }
