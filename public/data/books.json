@@ -176,6 +176,22 @@
     ]
   },
   {
+    "id": 1462,
+    "author": "Addison Moore",
+    "title": "Cutie Pies and Deadly Lies: Murder in the Mix 1",
+    "series": "Murder in the Mix",
+    "series_index": 1.0,
+    "cover_path": "covers/1462.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "8607456b179d60eb7f5a7ea12ee569c09e2bf954fd653708994f336285e03b28",
+    "cover_color": [
+      122,
+      139,
+      107
+    ]
+  },
+  {
     "id": 739,
     "author": "Adolfo Bioy Casares, Ruth L. C. Simms",
     "title": "The Invention of Morel",
@@ -381,6 +397,22 @@
       209,
       148,
       91
+    ]
+  },
+  {
+    "id": 1497,
+    "author": "Ali Hazelwood",
+    "title": "Not in Love",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1497.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "2fdd9c01c611fa9a79aa97361d3994cca497e6da52ef976ac53cbed174cdb0f7",
+    "cover_color": [
+      166,
+      122,
+      174
     ]
   },
   {
@@ -1421,6 +1453,22 @@
       114,
       136,
       127
+    ]
+  },
+  {
+    "id": 1536,
+    "author": "Arthur Golden",
+    "title": "Memoirs of a Geisha",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1536.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "59dbbda13a476d81d630e9f9b97ba3a8223f798c73daaadc0d0ed808d5bdadd8",
+    "cover_color": [
+      128,
+      120,
+      105
     ]
   },
   {
@@ -4240,6 +4288,102 @@
     ]
   },
   {
+    "id": 1495,
+    "author": "Dan Brown",
+    "title": "Angels and Demons",
+    "series": "Robert Langdon",
+    "series_index": 1.0,
+    "cover_path": "covers/1495.webp",
+    "is_read": 1,
+    "language": "eng",
+    "cover_hash": "82ed828183cedbbcb9f2d153ec4685ec6a401f654d144093d7b26a661cb3adff",
+    "cover_color": [
+      180,
+      194,
+      201
+    ]
+  },
+  {
+    "id": 1516,
+    "author": "Dan Brown",
+    "title": "Inferno",
+    "series": "Robert Langdon",
+    "series_index": 4.0,
+    "cover_path": "covers/1516.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "39be714b2a5014c00e497cdf9d8f7de8ba7c5bdb252f2858aa1e9c9cf42b0aeb",
+    "cover_color": [
+      111,
+      107,
+      91
+    ]
+  },
+  {
+    "id": 1515,
+    "author": "Dan Brown",
+    "title": "Origin",
+    "series": "Robert Langdon",
+    "series_index": 5.0,
+    "cover_path": "covers/1515.webp",
+    "is_read": 0,
+    "language": "",
+    "cover_hash": "d7ddd0043d12ef4e71d1cf08f6cd525786823007a1be3aa33295c84c43ab3736",
+    "cover_color": [
+      127,
+      81,
+      91
+    ]
+  },
+  {
+    "id": 1499,
+    "author": "Dan Brown",
+    "title": "The Da Vinci Code",
+    "series": "Robert Langdon",
+    "series_index": 2.0,
+    "cover_path": "covers/1499.webp",
+    "is_read": 1,
+    "language": "eng",
+    "cover_hash": "e740e181d50769fedc191b800efbb45a75caeff4f6748035a199f8db75fef7f0",
+    "cover_color": [
+      198,
+      172,
+      125
+    ]
+  },
+  {
+    "id": 1514,
+    "author": "Dan Brown",
+    "title": "The Lost Symbol",
+    "series": "Robert Langdon",
+    "series_index": 3.0,
+    "cover_path": "covers/1514.webp",
+    "is_read": 0,
+    "language": "",
+    "cover_hash": "5a092a45421281d184aada3b4868c917e8147418b55be023fc321a1c7b78c804",
+    "cover_color": [
+      161,
+      144,
+      97
+    ]
+  },
+  {
+    "id": 1488,
+    "author": "Dan Brown",
+    "title": "The Secret of Secrets: A Novel",
+    "series": "Robert Langdon",
+    "series_index": 6.0,
+    "cover_path": "covers/1488.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "5064a57c7ce767f730c4698b730943993c2c66792a285072cc5c6bd62ee8bb6d",
+    "cover_color": [
+      150,
+      29,
+      13
+    ]
+  },
+  {
     "id": 542,
     "author": "Dan Simmons",
     "title": "Hyperion 01 - Hyperion",
@@ -5520,19 +5664,19 @@
     ]
   },
   {
-    "id": 601,
+    "id": 1502,
     "author": "Elin Hilderbrand",
-    "title": "Swan Song",
+    "title": "Golden Girl",
     "series": "",
     "series_index": 1.0,
-    "cover_path": "covers/601.webp",
+    "cover_path": "covers/1502.webp",
     "is_read": 0,
     "language": "eng",
-    "cover_hash": "89e621c7988963fc226b217b04052044faaa6791c52c9de2bc4c0f87d5c9a73c",
+    "cover_hash": "a9898a04e4bf4df57f4d90a77cfc021497ae76cf002190393f1dae655f6d9272",
     "cover_color": [
-      104,
-      181,
-      216
+      108,
+      81,
+      58
     ]
   },
   {
@@ -5565,6 +5709,102 @@
       85,
       136,
       171
+    ]
+  },
+  {
+    "id": 1512,
+    "author": "Elin Hilderbrand",
+    "title": "28 Summers",
+    "series": "28 Summers",
+    "series_index": 1.0,
+    "cover_path": "covers/1512.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "dd88748fa9969a3ea3a7df7543119167585b696632627cd5dbcf24b3b8db9e71",
+    "cover_color": [
+      127,
+      167,
+      188
+    ]
+  },
+  {
+    "id": 1513,
+    "author": "Elin Hilderbrand",
+    "title": "The Sixth Wedding",
+    "series": "28 Summers",
+    "series_index": 1.5,
+    "cover_path": "covers/1513.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "f32d12b3a0aecef12f1246e3961c0dba246e1aa8ba0e77ca6f0f5aa5234f81cb",
+    "cover_color": [
+      140,
+      155,
+      147
+    ]
+  },
+  {
+    "id": 1518,
+    "author": "Elin Hilderbrand",
+    "title": "A Summer Affair: A Novel",
+    "series": "Nantucket",
+    "series_index": 1.0,
+    "cover_path": "covers/1518.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "7eaa8288a3247208a5ab74b9b3d05003ddb969963e24478f9c6dc133abf25a2e",
+    "cover_color": [
+      192,
+      165,
+      140
+    ]
+  },
+  {
+    "id": 601,
+    "author": "Elin Hilderbrand",
+    "title": "Swan Song",
+    "series": "Nantucket",
+    "series_index": 4.0,
+    "cover_path": "covers/601.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "89e621c7988963fc226b217b04052044faaa6791c52c9de2bc4c0f87d5c9a73c",
+    "cover_color": [
+      104,
+      181,
+      216
+    ]
+  },
+  {
+    "id": 1519,
+    "author": "Elin Hilderbrand",
+    "title": "The Castaways",
+    "series": "Nantucket",
+    "series_index": 2.0,
+    "cover_path": "covers/1519.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "d9de4e243c481da4da6bac42244953b29c570c20d562a9aab3c937bb102f777e",
+    "cover_color": [
+      200,
+      207,
+      212
+    ]
+  },
+  {
+    "id": 1520,
+    "author": "Elin Hilderbrand",
+    "title": "The Perfect Couple",
+    "series": "Nantucket",
+    "series_index": 3.0,
+    "cover_path": "covers/1520.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "28f15b65b03320e6fb5afb9b73871944a794989f9dafac53935cb76333be631d",
+    "cover_color": [
+      201,
+      182,
+      146
     ]
   },
   {
@@ -5968,6 +6208,118 @@
     ]
   },
   {
+    "id": 1521,
+    "author": "Emily McIntire",
+    "title": "Crossed (Never After Series)",
+    "series": "Never After",
+    "series_index": 5.0,
+    "cover_path": "covers/1521.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "9cb3edd0b734bc156274cb6d57c361f78e85007a99f81f9d107f623fe998d407",
+    "cover_color": [
+      65,
+      46,
+      52
+    ]
+  },
+  {
+    "id": 1522,
+    "author": "Emily McIntire",
+    "title": "Crossed Extended Epilogue",
+    "series": "Never After",
+    "series_index": 5.1,
+    "cover_path": "covers/1522.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "61d1bf4695b09261816d116666f93a583524d8fcc23c9e1a7817c4995a5779b0",
+    "cover_color": [
+      65,
+      46,
+      52
+    ]
+  },
+  {
+    "id": 1523,
+    "author": "Emily McIntire",
+    "title": "Hexed (Never After Series)",
+    "series": "Never After",
+    "series_index": 6.0,
+    "cover_path": "covers/1523.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "144a653a782d745d910314417c1b669560d7c50f23b7dd01291e2a8e6e05b68c",
+    "cover_color": [
+      75,
+      69,
+      108
+    ]
+  },
+  {
+    "id": 1504,
+    "author": "Emily McIntire",
+    "title": "Hooked",
+    "series": "Never After",
+    "series_index": 1.0,
+    "cover_path": "covers/1504.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "39147176950671b75248cd403d52660963c69f89325ec32035affae66eeac293",
+    "cover_color": [
+      38,
+      35,
+      38
+    ]
+  },
+  {
+    "id": 1494,
+    "author": "Emily McIntire",
+    "title": "Scarred",
+    "series": "Never After",
+    "series_index": 2.0,
+    "cover_path": "covers/1494.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "6e79984d3b9d518cbbb7b008048cfb1a5f41201c7de7ff1984f233ca0651e686",
+    "cover_color": [
+      39,
+      26,
+      18
+    ]
+  },
+  {
+    "id": 1486,
+    "author": "Emily McIntire",
+    "title": "Twisted",
+    "series": "Never After",
+    "series_index": 4.0,
+    "cover_path": "covers/1486.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "71145195be301964341db070e419e0a9c0812eb3c1299a0a2c7cd031cda92cea",
+    "cover_color": [
+      50,
+      65,
+      68
+    ]
+  },
+  {
+    "id": 1483,
+    "author": "Emily McIntire",
+    "title": "Wretched",
+    "series": "Never After",
+    "series_index": 3.0,
+    "cover_path": "covers/1483.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "427b351dc0c0eb785e252093460c776709bb604dff922cecec90daf4a0b0190a",
+    "cover_color": [
+      35,
+      44,
+      48
+    ]
+  },
+  {
     "id": 788,
     "author": "Emma Burstall",
     "title": "Onder de citroenbomen",
@@ -6205,6 +6557,22 @@
       47,
       68,
       67
+    ]
+  },
+  {
+    "id": 1469,
+    "author": "Evie Woods",
+    "title": "The Lost Bookshop",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1469.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "f1ccc1a46144de7ca41c4a22815de26d0ec4d4a31f0920ac21c43d2a7911239c",
+    "cover_color": [
+      41,
+      66,
+      60
     ]
   },
   {
@@ -6496,6 +6864,38 @@
     ]
   },
   {
+    "id": 1477,
+    "author": "Freida McFadden",
+    "title": "De perfecte zoon",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1477.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "abe23fcac4869a4a7948742992c26a2dcc1d2c1039558448b049a3be03181851",
+    "cover_color": [
+      50,
+      74,
+      28
+    ]
+  },
+  {
+    "id": 1476,
+    "author": "Freida McFadden",
+    "title": "De vrouw op zolder",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1476.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "c7951ee7847a37036e49efde983d4ca821165a7f85fa7e4b9f2e00da2f248308",
+    "cover_color": [
+      64,
+      56,
+      55
+    ]
+  },
+  {
     "id": 906,
     "author": "Freida McFadden",
     "title": "Lieg nooit",
@@ -6573,6 +6973,22 @@
       159,
       147,
       159
+    ]
+  },
+  {
+    "id": 1468,
+    "author": "Freida McFadden",
+    "title": "The Perfect Son",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1468.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "ce38dab8ab02676586a195ea402f4b9f6e273e555aff90cfc2fa1ceba55bb0b7",
+    "cover_color": [
+      58,
+      75,
+      88
     ]
   },
   {
@@ -7021,6 +7437,22 @@
       193,
       176,
       149
+    ]
+  },
+  {
+    "id": 1539,
+    "author": "Grady Hendrix",
+    "title": "How to Sell a Haunted House",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1539.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "5670977e295097ed464634530c0be609f3af29abd31ec3ef4b09b925f23e1646",
+    "cover_color": [
+      46,
+      52,
+      71
     ]
   },
   {
@@ -7696,6 +8128,22 @@
     ]
   },
   {
+    "id": 1507,
+    "author": "Heather Fawcett",
+    "title": "Emily Wilde's Compendium of Lost Tales",
+    "series": "Emily Wilde",
+    "series_index": 3.0,
+    "cover_path": "covers/1507.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "977f11a543adb300e31e626192075f2dc3bf2fe571c5315e86179bd218e5e4d6",
+    "cover_color": [
+      39,
+      89,
+      108
+    ]
+  },
+  {
     "id": 334,
     "author": "Heather Fawcett",
     "title": "Emily Wilde's Encyclopaedia of Faeries",
@@ -7773,6 +8221,38 @@
       49,
       63,
       88
+    ]
+  },
+  {
+    "id": 1524,
+    "author": "Hiro Arikawa",
+    "title": "The Goodbye Cat",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1524.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "3b21dadb16abce2ae7744c3b8ebab0ce78f9c629a50b74cf49ad0f34be23cb74",
+    "cover_color": [
+      199,
+      193,
+      187
+    ]
+  },
+  {
+    "id": 1490,
+    "author": "Hiro Arikawa",
+    "title": "The Travelling Cat Chronicles",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1490.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "01e3e3343c59509acf14cc7935024a35667e089f919e6743f2f4ba39919e5ab4",
+    "cover_color": [
+      209,
+      212,
+      204
     ]
   },
   {
@@ -8637,6 +9117,22 @@
       110,
       100,
       96
+    ]
+  },
+  {
+    "id": 1509,
+    "author": "Jasmine Mas",
+    "title": "Blood of Hercules (Villains of Lore Book 1)",
+    "series": "Villains of Lore",
+    "series_index": 1.0,
+    "cover_path": "covers/1509.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "cfcd6d845b8148e9b1f97f63e1b0a76844781a7e0eee7a73ec3b30dbe5bcfe46",
+    "cover_color": [
+      228,
+      223,
+      212
     ]
   },
   {
@@ -11168,19 +11664,19 @@
     ]
   },
   {
-    "id": 1420,
-    "author": "King| Stephen",
-    "title": "22 11 1963",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1420.webp",
+    "id": 1527,
+    "author": "King",
+    "title": "Vrees niet - 2025",
+    "series": "Holly Gibney (nl)",
+    "series_index": 4.0,
+    "cover_path": "covers/1527.webp",
     "is_read": 0,
     "language": "nld",
-    "cover_hash": "90c09a8ef399c33a1b5f038799819827ccd6db6a1c52b3f73651fbfd92ad865f",
+    "cover_hash": "4794d31b29162f4303a4e069d4c4f35515b53e2ea1b9aad2e46667bc09589f22",
     "cover_color": [
-      90,
-      87,
-      86
+      63,
+      41,
+      39
     ]
   },
   {
@@ -11405,6 +11901,22 @@
       89,
       81,
       89
+    ]
+  },
+  {
+    "id": 1546,
+    "author": "Kylie Lee Baker",
+    "title": "Bat Eater",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1546.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "ecd672f52c203508ce6cf687f257aa5dd4c671bb55710841bf24d119d7946d1e",
+    "cover_color": [
+      147,
+      164,
+      180
     ]
   },
   {
@@ -12800,6 +13312,22 @@
     ]
   },
   {
+    "id": 1470,
+    "author": "Lucy Jane Wood",
+    "title": "Rewitched",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1470.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "3ec49a161974225d10adc58d74f41fc416e2d5e8429cfc05a048d15184ca384d",
+    "cover_color": [
+      166,
+      122,
+      129
+    ]
+  },
+  {
     "id": 352,
     "author": "Lucy Maud Montgomery",
     "title": "Anne of Avonlea",
@@ -13216,6 +13744,22 @@
     ]
   },
   {
+    "id": 1491,
+    "author": "Mai Mochizuki",
+    "title": "The Full Moon Coffee Shop: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1491.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "98fa94db3ccf9e52374ee7c133654950b8dd3c61993888f10ad458405ac0c133",
+    "cover_color": [
+      147,
+      112,
+      91
+    ]
+  },
+  {
     "id": 1347,
     "author": "Malinda Lo",
     "title": "A Scatter of Light",
@@ -13261,6 +13805,38 @@
       183,
       182,
       180
+    ]
+  },
+  {
+    "id": 1541,
+    "author": "Margaret Atwood",
+    "title": "The Handmaid's Tale",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1541.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "6cb37c30466b4d4e86281f8c669a683f66074a43a9e789b94d6940b758f994e1",
+    "cover_color": [
+      145,
+      51,
+      51
+    ]
+  },
+  {
+    "id": 1529,
+    "author": "Margaret Atwood",
+    "title": "The Testaments: The Sequel to the Handmaid’s Tale: A Novel",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1529.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "35d060fb8c66f4a5f3e8ede319d95da0e5a0b7a08a8f73a4018db0b84ec27c2f",
+    "cover_color": [
+      53,
+      107,
+      80
     ]
   },
   {
@@ -13792,6 +14368,38 @@
     ]
   },
   {
+    "id": 1337,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Biblioteksmysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1337.webp",
+    "is_read": 0,
+    "language": "swe",
+    "cover_hash": "da8d059ca38ba60bbaa210674969dba544df028a6978007cde9ec37db83135ae",
+    "cover_color": [
+      103,
+      114,
+      101
+    ]
+  },
+  {
+    "id": 1334,
+    "author": "Martin Widmark, Helena Willis",
+    "title": "Cafémysteriet",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1334.webp",
+    "is_read": 0,
+    "language": "swe",
+    "cover_hash": "87725288125ddb96cb38c3e02cf6dd39ba41cb10f78a74a8029855187cbd7f4f",
+    "cover_color": [
+      160,
+      164,
+      154
+    ]
+  },
+  {
     "id": 1330,
     "author": "Martin Widmark, Helena Willis",
     "title": "Cykelmysteriet",
@@ -13869,38 +14477,6 @@
       169,
       172,
       150
-    ]
-  },
-  {
-    "id": 1337,
-    "author": "Martin Widmark, Helena Willis",
-    "title": "Biblioteksmysteriet",
-    "series": "LasseMajas detektivbyrå",
-    "series_index": 13.0,
-    "cover_path": "covers/1337.webp",
-    "is_read": 0,
-    "language": "swe",
-    "cover_hash": "da8d059ca38ba60bbaa210674969dba544df028a6978007cde9ec37db83135ae",
-    "cover_color": [
-      103,
-      114,
-      101
-    ]
-  },
-  {
-    "id": 1334,
-    "author": "Martin Widmark, Helena Willis",
-    "title": "Cafémysteriet",
-    "series": "LasseMajas detektivbyrå",
-    "series_index": 4.0,
-    "cover_path": "covers/1334.webp",
-    "is_read": 0,
-    "language": "swe",
-    "cover_hash": "87725288125ddb96cb38c3e02cf6dd39ba41cb10f78a74a8029855187cbd7f4f",
-    "cover_color": [
-      160,
-      164,
-      154
     ]
   },
   {
@@ -14688,19 +15264,19 @@
     ]
   },
   {
-    "id": 1462,
-    "author": "Moore| Addison",
-    "title": "Cutie Pies and Deadly Lies: Murder in the Mix 1",
-    "series": "Murder in the Mix",
+    "id": 1506,
+    "author": "Morgan Dick",
+    "title": "Favorite Daughter: A Novel",
+    "series": "",
     "series_index": 1.0,
-    "cover_path": "covers/1462.webp",
+    "cover_path": "covers/1506.webp",
     "is_read": 0,
     "language": "eng",
-    "cover_hash": "8607456b179d60eb7f5a7ea12ee569c09e2bf954fd653708994f336285e03b28",
+    "cover_hash": "dcf92a4b6c425598ebf02581fde832cc6ca029f743411f1dfad7e8a8840b351e",
     "cover_color": [
-      122,
-      139,
-      107
+      193,
+      191,
+      170
     ]
   },
   {
@@ -14896,6 +15472,22 @@
     ]
   },
   {
+    "id": 1249,
+    "author": "N. K. Jemisin",
+    "title": "De Stenen Hemel",
+    "series": "De gebroken aarde",
+    "series_index": 3.0,
+    "cover_path": "covers/1249.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "c7b3681d1c13174549fa5aebf6cd9974b0bdc41c95bf4728c9a6f06df4526ce1",
+    "cover_color": [
+      39,
+      69,
+      66
+    ]
+  },
+  {
     "id": 1250,
     "author": "N. K. Jemisin",
     "title": "Het vijfde seizoen",
@@ -14957,22 +15549,6 @@
       52,
       85,
       71
-    ]
-  },
-  {
-    "id": 1249,
-    "author": "N.K. Jemisin",
-    "title": "De Stenen Hemel",
-    "series": "De gebroken aarde",
-    "series_index": 3.0,
-    "cover_path": "covers/1249.webp",
-    "is_read": 0,
-    "language": "nld",
-    "cover_hash": "c7b3681d1c13174549fa5aebf6cd9974b0bdc41c95bf4728c9a6f06df4526ce1",
-    "cover_color": [
-      39,
-      69,
-      66
     ]
   },
   {
@@ -15104,19 +15680,35 @@
     ]
   },
   {
+    "id": 1517,
+    "author": "Navessa Allen",
+    "title": "Caught Up",
+    "series": "Into Darkness",
+    "series_index": 2.0,
+    "cover_path": "covers/1517.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "8b40d323ad50e03afb4e8d4076af12b7694af1315d6f80b5d46331db4f9028ab",
+    "cover_color": [
+      71,
+      26,
+      29
+    ]
+  },
+  {
     "id": 752,
     "author": "Navessa Allen",
     "title": "Lights Out: A Dark Stalker Rom-Com",
-    "series": "",
+    "series": "Into Darkness",
     "series_index": 1.0,
     "cover_path": "covers/752.webp",
     "is_read": 0,
     "language": "eng",
-    "cover_hash": "a2b8a03791875c2e1a77f3060f812b3f6d1f0fa2d66580b1dce35dbe752edcf2",
+    "cover_hash": "637680740b4f48c3d0fd360a6b9e0e6b9958bac7d2143b23a4ad566db13c948a",
     "cover_color": [
-      34,
-      41,
-      43
+      21,
+      71,
+      87
     ]
   },
   {
@@ -15453,6 +16045,22 @@
       236,
       71,
       68
+    ]
+  },
+  {
+    "id": 1501,
+    "author": "Olivia Atwater",
+    "title": "Longshadow",
+    "series": "Regency Faerie Tales",
+    "series_index": 3.0,
+    "cover_path": "covers/1501.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "a39b8c60f289eb76864370689250f35e0a480e34ad6463c2b0144af5f42dbeb2",
+    "cover_color": [
+      34,
+      34,
+      34
     ]
   },
   {
@@ -16368,22 +16976,6 @@
     ]
   },
   {
-    "id": 1187,
-    "author": "Rachel Gillig",
-    "title": "Twee verstrengelde kronen",
-    "series": "The Shepherd King",
-    "series_index": 2.0,
-    "cover_path": "covers/1187.webp",
-    "is_read": 0,
-    "language": "nld",
-    "cover_hash": "cd902e4ef095cdf79c7043db31a9fa7df507ccb1ff212368fc37da261d19f166",
-    "cover_color": [
-      142,
-      149,
-      148
-    ]
-  },
-  {
     "id": 19,
     "author": "Rachel Gillig",
     "title": "Two Twisted Crowns",
@@ -16413,6 +17005,38 @@
       89,
       104,
       93
+    ]
+  },
+  {
+    "id": 1187,
+    "author": "Rachel Gillig",
+    "title": "Twee verstrengelde kronen",
+    "series": "The Shepherd King (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1187.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "cd902e4ef095cdf79c7043db31a9fa7df507ccb1ff212368fc37da261d19f166",
+    "cover_color": [
+      142,
+      149,
+      148
+    ]
+  },
+  {
+    "id": 1489,
+    "author": "Rachel Gillig",
+    "title": "The Knight and the Moth",
+    "series": "The Stonewater Kingdom",
+    "series_index": 1.0,
+    "cover_path": "covers/1489.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "db8b32887b0b8d39362cf9aa4fbba5d616cc5dea48103328edcc44dfdf06ecd5",
+    "cover_color": [
+      66,
+      74,
+      83
     ]
   },
   {
@@ -16557,6 +17181,86 @@
       247,
       223,
       15
+    ]
+  },
+  {
+    "id": 1510,
+    "author": "Rebecca Ross",
+    "title": "A Fire Endless",
+    "series": "Elements of Cadence",
+    "series_index": 2.0,
+    "cover_path": "covers/1510.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "8eefb7cedae6e3cc60c99bd61cb24cc212808f464e0588712e7222234ec05f58",
+    "cover_color": [
+      51,
+      27,
+      26
+    ]
+  },
+  {
+    "id": 1508,
+    "author": "Rebecca Ross",
+    "title": "A River Enchanted",
+    "series": "Elements of Cadence",
+    "series_index": 1.0,
+    "cover_path": "covers/1508.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "b9d1df1d51aeceab9d45874a8c616c10175ebd21359f40a04eb3e4ded0a706de",
+    "cover_color": [
+      55,
+      80,
+      112
+    ]
+  },
+  {
+    "id": 1485,
+    "author": "Rebecca Ross",
+    "title": "Wild Reverence",
+    "series": "Letters of Enchantment",
+    "series_index": 0.0,
+    "cover_path": "covers/1485.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "c2a8131a0213ed0a236efe3b989ce4206b3afba10aa4832b226ccc7aa794641d",
+    "cover_color": [
+      85,
+      94,
+      100
+    ]
+  },
+  {
+    "id": 1505,
+    "author": "Rebecca Ross",
+    "title": "Genadeloze geloften: Nederlandse editie Ruthless Vows",
+    "series": "Letters of Enchantment (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1505.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "b843fa707a8149f4a78cf841a90928167bd2fcbbee838bda609f2142c211895a",
+    "cover_color": [
+      210,
+      204,
+      198
+    ]
+  },
+  {
+    "id": 1503,
+    "author": "Rebecca Ross",
+    "title": "Hemelse rivalen",
+    "series": "Letters of Enchantment (nl)",
+    "series_index": 1.0,
+    "cover_path": "covers/1503.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "66e23c08e688ec339fe8c580389065e3c48f22f584cf7ca64cfe35c55756f4da",
+    "cover_color": [
+      43,
+      40,
+      37
     ]
   },
   {
@@ -16896,19 +17600,211 @@
     ]
   },
   {
-    "id": 781,
+    "id": 1547,
     "author": "Rick Riordan",
-    "title": "The Mark of Athena (The Heroes of Olympus, Book Three)",
-    "series": "",
+    "title": "Demigods and Monsters",
+    "series": "Camp Half-Blood Chronicles",
     "series_index": 1.0,
-    "cover_path": "covers/781.webp",
+    "cover_path": "covers/1547.webp",
     "is_read": 0,
     "language": "eng",
-    "cover_hash": "ead23fc48025209a65ed4c19972930264981ba4e5043000b2b800c5f30ae9513",
+    "cover_hash": "8147769f0cbfd4191dccb6f772689e8191f0835df9f6944bd8be305a9ea62097",
     "cover_color": [
-      146,
-      105,
-      103
+      109,
+      111,
+      114
+    ]
+  },
+  {
+    "id": 1552,
+    "author": "Rick Riordan",
+    "title": "From Percy Jackson_Camp Half-Blood Confidential",
+    "series": "Camp Half-Blood Chronicles",
+    "series_index": 15.5,
+    "cover_path": "covers/1552.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "59980598b327a9346a164089cdfec318dc54822c42c292fa2905ecd8dedc0664",
+    "cover_color": [
+      209,
+      100,
+      47
+    ]
+  },
+  {
+    "id": 1551,
+    "author": "Rick Riordan",
+    "title": "The Demigod Files",
+    "series": "Camp Half-Blood Chronicles",
+    "series_index": 4.5,
+    "cover_path": "covers/1551.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "9d24d2cfc1f605b7aba046990fa66c04ef067493e54733fb641d9b0bc4baf8c5",
+    "cover_color": [
+      64,
+      67,
+      99
+    ]
+  },
+  {
+    "id": 1535,
+    "author": "Rick Riordan",
+    "title": "Percy Jackson and the Singer of Apollo",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 5.1,
+    "cover_path": "covers/1535.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "bfcf0b5b067173e5262d167dfc874e2fefa8ba9cdfbd5bd75d455bf530efe584",
+    "cover_color": [
+      175,
+      144,
+      119
+    ]
+  },
+  {
+    "id": 1554,
+    "author": "Rick Riordan",
+    "title": "Percy Jackson and the Sword of Hades",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 4.5,
+    "cover_path": "covers/1554.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "aa0521e2e5fa6266c125077caa3b0717c6d06b6dc0eb54c4fb28596fe6bd4937",
+    "cover_color": [
+      210,
+      115,
+      99
+    ]
+  },
+  {
+    "id": 1557,
+    "author": "Rick Riordan",
+    "title": "The Battle of the Labyrinth",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 4.0,
+    "cover_path": "covers/1557.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "6fd6d0962d800db4a97b59d782a207b8b8d20a0a960b8cee62245f660102ca3a",
+    "cover_color": [
+      128,
+      48,
+      36
+    ]
+  },
+  {
+    "id": 1553,
+    "author": "Rick Riordan",
+    "title": "The Last Olympian",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 5.0,
+    "cover_path": "covers/1553.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "7429685c064e271c60c8839bf4bef81475a43f6c34fea53fdf52aa608fce40bd",
+    "cover_color": [
+      73,
+      86,
+      74
+    ]
+  },
+  {
+    "id": 1525,
+    "author": "Rick Riordan",
+    "title": "The Lightning Thief",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 1.0,
+    "cover_path": "covers/1525.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "16762a0439bbb92cb988b8a1e6fd4578deee60c4bfa639e6aa7fd1b19ac7cae1",
+    "cover_color": [
+      54,
+      100,
+      90
+    ]
+  },
+  {
+    "id": 1528,
+    "author": "Rick Riordan",
+    "title": "The Sea of Monsters",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 2.0,
+    "cover_path": "covers/1528.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "7b5dbd112df2f6606d25a8ade0e0428ed729915632e5f5fdde4fc8b922599541",
+    "cover_color": [
+      127,
+      68,
+      34
+    ]
+  },
+  {
+    "id": 1533,
+    "author": "Rick Riordan",
+    "title": "The Titan's Curse",
+    "series": "Percy Jackson and the Olympians",
+    "series_index": 3.0,
+    "cover_path": "covers/1533.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "0de1ccb01e27f7515a324cada26c84ef96d5834780d06b747fcc5ff852b5e5e1",
+    "cover_color": [
+      66,
+      89,
+      119
+    ]
+  },
+  {
+    "id": 1556,
+    "author": "Rick Riordan",
+    "title": "Percy Jackson and the Bronze Dragon",
+    "series": "Percy Jackson Shorts",
+    "series_index": 1.0,
+    "cover_path": "covers/1556.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "6703e981ba84dba6c296f3d341c376052fb53e2a21772dee17a6de6002155484",
+    "cover_color": [
+      208,
+      218,
+      222
+    ]
+  },
+  {
+    "id": 1555,
+    "author": "Rick Riordan",
+    "title": "Percy Jackson and the Stolen Chariot",
+    "series": "Percy Jackson Shorts",
+    "series_index": 2.0,
+    "cover_path": "covers/1555.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "d7e578eb45e8ee39e6e6b0e4f05d66de028673cb002660836fbb0961d5fdd489",
+    "cover_color": [
+      208,
+      218,
+      222
+    ]
+  },
+  {
+    "id": 1549,
+    "author": "Rick Riordan",
+    "title": "Percy Jackson and the Greek Heroes",
+    "series": "The Heroes of Olympus",
+    "series_index": 5.5,
+    "cover_path": "covers/1549.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "2d71e5cddf446f931471f386f4d9d918b1c9ecf40cde459b373885bd97b5ddf7",
+    "cover_color": [
+      73,
+      112,
+      145
     ]
   },
   {
@@ -16928,6 +17824,22 @@
     ]
   },
   {
+    "id": 781,
+    "author": "Rick Riordan",
+    "title": "The Mark of Athena (The Heroes of Olympus, Book Three)",
+    "series": "The Heroes of Olympus",
+    "series_index": 3.0,
+    "cover_path": "covers/781.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "ead23fc48025209a65ed4c19972930264981ba4e5043000b2b800c5f30ae9513",
+    "cover_color": [
+      146,
+      105,
+      103
+    ]
+  },
+  {
     "id": 807,
     "author": "Rick Riordan",
     "title": "The Son of Neptune",
@@ -16944,6 +17856,22 @@
     ]
   },
   {
+    "id": 1550,
+    "author": "Rick Riordan, John Rocco",
+    "title": "Percy Jackson's Greek Gods",
+    "series": "The Heroes of Olympus",
+    "series_index": 4.5,
+    "cover_path": "covers/1550.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "c02fd08fa320da68418d73f4e3934c6da720f1584a5dbdf2bb62d9a8bd29ebfe",
+    "cover_color": [
+      124,
+      120,
+      90
+    ]
+  },
+  {
     "id": 28,
     "author": "Rick Rubin",
     "title": "The Creative Act",
@@ -16957,6 +17885,22 @@
       171,
       174,
       178
+    ]
+  },
+  {
+    "id": 1455,
+    "author": "Riley Sager",
+    "title": "Home Before Dark",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1455.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "cecfcd4ac803e526dffe8516bc5967b28f9655250edca20f216393afb94d5fd4",
+    "cover_color": [
+      49,
+      90,
+      31
     ]
   },
   {
@@ -17760,6 +18704,22 @@
     ]
   },
   {
+    "id": 1444,
+    "author": "Ruth Ware",
+    "title": "The Death of Mrs. Westaway",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1444.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "0983da478cc4c8f0af17ae4f3375ecdd0e6d65041a5110c7c9b9eec3d0d55e31",
+    "cover_color": [
+      122,
+      122,
+      122
+    ]
+  },
+  {
     "id": 693,
     "author": "Ryan Cahill",
     "title": "Of Blood and Fire",
@@ -17933,22 +18893,6 @@
       135,
       121,
       101
-    ]
-  },
-  {
-    "id": 1455,
-    "author": "Sager| Riley",
-    "title": "Home Before Dark",
-    "series": "",
-    "series_index": 1.0,
-    "cover_path": "covers/1455.webp",
-    "is_read": 0,
-    "language": "eng",
-    "cover_hash": "cecfcd4ac803e526dffe8516bc5967b28f9655250edca20f216393afb94d5fd4",
-    "cover_color": [
-      49,
-      90,
-      31
     ]
   },
   {
@@ -18800,6 +19744,22 @@
     ]
   },
   {
+    "id": 1511,
+    "author": "SenLinYu",
+    "title": "Alchemised",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1511.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "3a20749ef1585fa3ab66a2e81cf0f8d0cb7167125e108bf1b72e7f10914bed95",
+    "cover_color": [
+      79,
+      68,
+      70
+    ]
+  },
+  {
     "id": 244,
     "author": "Shannon Chakraborty",
     "title": "The Adventures of Amina al-Sirafi",
@@ -19200,6 +20160,38 @@
     ]
   },
   {
+    "id": 1465,
+    "author": "Soraya Lane",
+    "title": "De Argentijnse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 6.0,
+    "cover_path": "covers/1465.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "dbad7f69c49b7ca6dca81d87fb6ba8f759e489015f3e2d2c30d4263613f78cb8",
+    "cover_color": [
+      187,
+      164,
+      139
+    ]
+  },
+  {
+    "id": 1471,
+    "author": "Soraya Lane",
+    "title": "De Cubaanse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 2.0,
+    "cover_path": "covers/1471.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "7881495829234611d9c82ff5c60550ac0827bcf9a9c525d4ff242b17fb478013",
+    "cover_color": [
+      208,
+      166,
+      146
+    ]
+  },
+  {
     "id": 915,
     "author": "Soraya Lane",
     "title": "De Franse dochter",
@@ -19234,7 +20226,7 @@
   {
     "id": 896,
     "author": "Soraya Lane",
-    "title": "Soraya Lane_De Verloren Dochters 01_2022 - De Italiaanse Dochter",
+    "title": "De Italiaanse Dochter",
     "series": "De Verloren Dochters",
     "series_index": 1.0,
     "cover_path": "covers/896.webp",
@@ -19245,6 +20237,22 @@
       200,
       164,
       132
+    ]
+  },
+  {
+    "id": 1475,
+    "author": "Soraya Lane",
+    "title": "De Zwitserse dochter",
+    "series": "De Verloren Dochters",
+    "series_index": 4.0,
+    "cover_path": "covers/1475.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "03cc25042d839e25fe5e2d76f97cfe4caf4d66b33ad81f17101c8c06a1e5028b",
+    "cover_color": [
+      208,
+      167,
+      152
     ]
   },
   {
@@ -19472,11 +20480,43 @@
     ]
   },
   {
+    "id": 1498,
+    "author": "Stephen Fry",
+    "title": "Heroes",
+    "series": "Stephen Fry's Great Mythology",
+    "series_index": 2.0,
+    "cover_path": "covers/1498.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "b8cd5bcf62e9905cdfa2f5c0a4fef3a158e63c0cf18457a11cd06c7df9167640",
+    "cover_color": [
+      201,
+      193,
+      187
+    ]
+  },
+  {
+    "id": 1500,
+    "author": "Stephen Fry",
+    "title": "Mythos - illustrated edition",
+    "series": "Stephen Fry's Great Mythology",
+    "series_index": 1.0,
+    "cover_path": "covers/1500.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "86e8af48d0f9d7736baafc0249d432ef3c12b7eed439b8abd0f2e4d633137b4c",
+    "cover_color": [
+      117,
+      140,
+      157
+    ]
+  },
+  {
     "id": 889,
     "author": "Stephen Fry",
     "title": "Odyssey",
-    "series": "",
-    "series_index": 1.0,
+    "series": "Stephen Fry's Great Mythology",
+    "series_index": 4.0,
     "cover_path": "covers/889.webp",
     "is_read": 0,
     "language": "eng",
@@ -19485,6 +20525,70 @@
       44,
       113,
       154
+    ]
+  },
+  {
+    "id": 1487,
+    "author": "Stephen Fry",
+    "title": "Troy",
+    "series": "Stephen Fry's Great Mythology",
+    "series_index": 3.0,
+    "cover_path": "covers/1487.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "8a1a20c454af3679d732f5cccb34a32911cddc3f34b5ede0ad86761780c58109",
+    "cover_color": [
+      38,
+      34,
+      30
+    ]
+  },
+  {
+    "id": 1484,
+    "author": "Stephen Fry",
+    "title": "Helden",
+    "series": "Stephen Fry's Great Mythology (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1484.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "df9002165f9c3e0ecf9de98f37b020f33292b71ab5b9dc68fe1091649a1da45d",
+    "cover_color": [
+      209,
+      206,
+      205
+    ]
+  },
+  {
+    "id": 1420,
+    "author": "Stephen King",
+    "title": "22 11 1963 (nl)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1420.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "90c09a8ef399c33a1b5f038799819827ccd6db6a1c52b3f73651fbfd92ad865f",
+    "cover_color": [
+      90,
+      87,
+      86
+    ]
+  },
+  {
+    "id": 1545,
+    "author": "Stephen King",
+    "title": "Billy Summers (nl)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1545.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "394a1b8ce65ae7d9246ef971a893232ba275f4256de819aef211660dc61764c3",
+    "cover_color": [
+      81,
+      63,
+      53
     ]
   },
   {
@@ -19501,6 +20605,22 @@
       103,
       76,
       62
+    ]
+  },
+  {
+    "id": 1543,
+    "author": "Stephen King",
+    "title": "Carrie",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1543.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "a08c37314163b294632c722833b9254c572199bb64d21d175034f7212cdef595",
+    "cover_color": [
+      117,
+      77,
+      67
     ]
   },
   {
@@ -19536,6 +20656,22 @@
     ]
   },
   {
+    "id": 1542,
+    "author": "Stephen King",
+    "title": "Duistere zaken",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1542.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "5e73b5cf88f45d9e8ad456ef267bb99fe447d46a06137e4081128e5bd0df7abe",
+    "cover_color": [
+      123,
+      102,
+      72
+    ]
+  },
+  {
     "id": 1240,
     "author": "Stephen King",
     "title": "Fairy Tale",
@@ -19549,6 +20685,22 @@
       63,
       87,
       91
+    ]
+  },
+  {
+    "id": 1482,
+    "author": "Stephen King",
+    "title": "Fairy Tale (nl)",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1482.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "b22f9b5bee022d4f6c6ea4d5d2c8f13057ad583d545b56b74bff4f84fab6819d",
+    "cover_color": [
+      49,
+      46,
+      64
     ]
   },
   {
@@ -19568,6 +20720,38 @@
     ]
   },
   {
+    "id": 1544,
+    "author": "Stephen King",
+    "title": "Het Instituut",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1544.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "2c8ddc7df77aeb7589eb5dfe8cab2472781f4692b0c43bda4766687ea0a9f544",
+    "cover_color": [
+      72,
+      64,
+      62
+    ]
+  },
+  {
+    "id": 1534,
+    "author": "Stephen King",
+    "title": "Pet Sematary",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1534.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "18aeb1e4eb5ec0689d17e30e0f533c5e660b19d44d621a4ed43e9f67075c7cdd",
+    "cover_color": [
+      58,
+      63,
+      67
+    ]
+  },
+  {
     "id": 1399,
     "author": "Stephen King",
     "title": "Salem's Lot",
@@ -19581,6 +20765,22 @@
       81,
       81,
       80
+    ]
+  },
+  {
+    "id": 1532,
+    "author": "Stephen King",
+    "title": "The Institute",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1532.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "73aa910bb7f10bbdfb923d0087bf45d33bce1c3aa2589f9a8dd3b67ea2882399",
+    "cover_color": [
+      61,
+      63,
+      55
     ]
   },
   {
@@ -19600,6 +20800,22 @@
     ]
   },
   {
+    "id": 1530,
+    "author": "Stephen King",
+    "title": "The Long Walk",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1530.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "a89a6cd44a7b186ecf6e3e6d66bac5d9eb0faede77b189c8a1148b54fcbe1e12",
+    "cover_color": [
+      147,
+      143,
+      142
+    ]
+  },
+  {
     "id": 32,
     "author": "Stephen King",
     "title": "The Stand",
@@ -19613,6 +20829,230 @@
       211,
       212,
       169
+    ]
+  },
+  {
+    "id": 1526,
+    "author": "Stephen King",
+    "title": "You Like It Darker: Stories",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1526.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "862297070203d8bdda2ffb897f2feb4ab313224eaf72d1f1bb85840f21326b3d",
+    "cover_color": [
+      126,
+      101,
+      79
+    ]
+  },
+  {
+    "id": 1480,
+    "author": "Stephen King",
+    "title": "De Donkere Toren",
+    "series": "De Donkere Toren",
+    "series_index": 7.0,
+    "cover_path": "covers/1480.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "bb61180c9e0fd966d3c9b2b99385899df86012d5d426730b6e39e72630481650",
+    "cover_color": [
+      103,
+      52,
+      61
+    ]
+  },
+  {
+    "id": 1479,
+    "author": "Stephen King",
+    "title": "De Scherpschutter",
+    "series": "De Donkere Toren",
+    "series_index": 1.0,
+    "cover_path": "covers/1479.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "d3e6db3c44b3a336938863d3a7e167b7ac98c61d993c5797346e614da0c5de62",
+    "cover_color": [
+      73,
+      78,
+      79
+    ]
+  },
+  {
+    "id": 1478,
+    "author": "Stephen King",
+    "title": "De wind door het sleutelgat",
+    "series": "De Donkere Toren",
+    "series_index": 4.5,
+    "cover_path": "covers/1478.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "7b39f8a034d7feda251444ac344d65431d1a15620dee2e6d546bf982d676c992",
+    "cover_color": [
+      117,
+      92,
+      49
+    ]
+  },
+  {
+    "id": 1474,
+    "author": "Stephen King",
+    "title": "Een lied van Susannah",
+    "series": "De Donkere Toren",
+    "series_index": 6.0,
+    "cover_path": "covers/1474.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "65166dcd6a863d2af618bbc0d99670705d55ce111270c2b5a7db7b3ff7837f77",
+    "cover_color": [
+      71,
+      79,
+      59
+    ]
+  },
+  {
+    "id": 1473,
+    "author": "Stephen King",
+    "title": "Het Teken Van Drie",
+    "series": "De Donkere Toren",
+    "series_index": 2.0,
+    "cover_path": "covers/1473.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "39f295c2dd42d0f06fe30a7412c9b3a402e57c9fc9e06bd267321ebef847bc0f",
+    "cover_color": [
+      104,
+      57,
+      43
+    ]
+  },
+  {
+    "id": 1481,
+    "author": "Stephen King",
+    "title": "Het Verloren Rijk",
+    "series": "De Donkere Toren",
+    "series_index": 3.0,
+    "cover_path": "covers/1481.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "4d4b0d6aab39651f414a072d49978144986f4872066347034f07034dcdd0b50a",
+    "cover_color": [
+      106,
+      53,
+      75
+    ]
+  },
+  {
+    "id": 1467,
+    "author": "Stephen King",
+    "title": "Tovenaarsglas",
+    "series": "De Donkere Toren",
+    "series_index": 4.0,
+    "cover_path": "covers/1467.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "d80adbce36432d40be0d775da25f7e2b942f4559fe88530e442e24d4ddb7352f",
+    "cover_color": [
+      74,
+      68,
+      96
+    ]
+  },
+  {
+    "id": 1466,
+    "author": "Stephen King",
+    "title": "Wolven van de Calla",
+    "series": "De Donkere Toren",
+    "series_index": 5.0,
+    "cover_path": "covers/1466.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "9f124d16b9b6d31e1ffb75891e79f130a5b470ef39819d9ee4cb68a92ce8d099",
+    "cover_color": [
+      67,
+      80,
+      79
+    ]
+  },
+  {
+    "id": 1540,
+    "author": "Stephen King",
+    "title": "Holly",
+    "series": "Holly Gibney",
+    "series_index": 3.0,
+    "cover_path": "covers/1540.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "4a30c3b7544f19a153d4685d7391820cf5febf9d991d7d6264a27948f6ee6733",
+    "cover_color": [
+      38,
+      57,
+      59
+    ]
+  },
+  {
+    "id": 1538,
+    "author": "Stephen King",
+    "title": "Holly Gibney 06-Never Flinch",
+    "series": "Holly Gibney",
+    "series_index": 4.0,
+    "cover_path": "covers/1538.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "6281e4b7f10f85bee9be1ba25b1020a6d33f517378c0b2cef417940d9665cfd8",
+    "cover_color": [
+      168,
+      170,
+      168
+    ]
+  },
+  {
+    "id": 1537,
+    "author": "Stephen King",
+    "title": "If It Bleeds",
+    "series": "Holly Gibney",
+    "series_index": 2.0,
+    "cover_path": "covers/1537.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "83dded6cac0343599672af784de5095ff60471bd8600a0061154d305e60c4904",
+    "cover_color": [
+      129,
+      87,
+      55
+    ]
+  },
+  {
+    "id": 1531,
+    "author": "Stephen King",
+    "title": "The Outsider",
+    "series": "Holly Gibney",
+    "series_index": 5.0,
+    "cover_path": "covers/1531.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "93b8586ad9f72b40d6a3719b51d3d4fc77f94b3a27a151b9e2d8bb849e55e4c4",
+    "cover_color": [
+      84,
+      83,
+      78
+    ]
+  },
+  {
+    "id": 1548,
+    "author": "Stephen King",
+    "title": "Als het bloedt",
+    "series": "Holly Gibney (nl)",
+    "series_index": 2.0,
+    "cover_path": "covers/1548.webp",
+    "is_read": 0,
+    "language": "nld",
+    "cover_hash": "272bbadf98f468fcb84a776808ac2aa06efb7ce0287e3e4f753af76f08763bd5",
+    "cover_color": [
+      126,
+      89,
+      58
     ]
   },
   {
@@ -20160,6 +21600,22 @@
     ]
   },
   {
+    "id": 1395,
+    "author": "Sören Olsson, Leif Eriksson, Martin Svensson",
+    "title": "Luna och superkraften: Spökmysteriet",
+    "series": "Luna och superkraften",
+    "series_index": 1.0,
+    "cover_path": "covers/1395.webp",
+    "is_read": 0,
+    "language": "swe",
+    "cover_hash": "a87b854c6806aeda02e859d6aa2c89b0765a062d90d2ca76bde051fe190df5c5",
+    "cover_color": [
+      120,
+      85,
+      131
+    ]
+  },
+  {
     "id": 1285,
     "author": "Sören Olsson, Leif Eriksson, Martin Svensson",
     "title": "Luna och superkraften: Väderhemligheten",
@@ -20173,22 +21629,6 @@
       55,
       95,
       84
-    ]
-  },
-  {
-    "id": 1395,
-    "author": "Sören Olsson, Leif Eriksson, Martin Svensson, Illustrator by Andrea Femerstrand",
-    "title": "Luna och superkraften: Spökmysteriet",
-    "series": "Luna och superkraften",
-    "series_index": 1.0,
-    "cover_path": "covers/1395.webp",
-    "is_read": 0,
-    "language": "swe",
-    "cover_hash": "a87b854c6806aeda02e859d6aa2c89b0765a062d90d2ca76bde051fe190df5c5",
-    "cover_color": [
-      120,
-      85,
-      131
     ]
   },
   {
@@ -20680,11 +22120,11 @@
     "cover_path": "covers/1129.webp",
     "is_read": 0,
     "language": "eng",
-    "cover_hash": "80536c53103db1f638e2d63e205c461c086faefed63e01b3512b989ed884e9c9",
+    "cover_hash": "04cfdf03bf7b9ece1a48ff1f1c281ce579e67cf54dcdbe3be597c11ef405e2e1",
     "cover_color": [
-      255,
-      255,
-      255
+      214,
+      179,
+      156
     ]
   },
   {
@@ -22000,6 +23440,54 @@
     ]
   },
   {
+    "id": 1493,
+    "author": "Uketsu",
+    "title": "Strange Houses",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1493.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "1319ff9520a343fd6d0f4331ee559bc53fca96748ecafceeb9cf495272789d6f",
+    "cover_color": [
+      214,
+      157,
+      155
+    ]
+  },
+  {
+    "id": 1492,
+    "author": "Uketsu",
+    "title": "Strange Pictures",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1492.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "3fc20ed5127caed758dec067d29926a70fba0ddf2a005e46ab7e34782d48733f",
+    "cover_color": [
+      144,
+      191,
+      106
+    ]
+  },
+  {
+    "id": 1496,
+    "author": "Ulla Thynell",
+    "title": "Nordic Tales",
+    "series": "",
+    "series_index": 1.0,
+    "cover_path": "covers/1496.webp",
+    "is_read": 0,
+    "language": "eng",
+    "cover_hash": "a3af24673bccd52b5d2c66676e8f7c4e85a3987d7f0b38df4987d4d0820d1000",
+    "cover_color": [
+      135,
+      147,
+      155
+    ]
+  },
+  {
     "id": 1010,
     "author": "Ursula Kroeber Le Guin",
     "title": "The Left Hand of Darkness",
@@ -22352,19 +23840,19 @@
     ]
   },
   {
-    "id": 1444,
-    "author": "Ware| Ruth",
-    "title": "Ware, Ruth - The Death of Mrs. Westaway",
+    "id": 1472,
+    "author": "Virginie Grimaldi",
+    "title": "Onder de sterren",
     "series": "",
     "series_index": 1.0,
-    "cover_path": "covers/1444.webp",
+    "cover_path": "covers/1472.webp",
     "is_read": 0,
-    "language": "eng",
-    "cover_hash": "0983da478cc4c8f0af17ae4f3375ecdd0e6d65041a5110c7c9b9eec3d0d55e31",
+    "language": "nld",
+    "cover_hash": "61eff75eef9175bec2098b831081bf075368c13feb2f8362414ab1239934eedf",
     "cover_color": [
-      122,
-      122,
-      122
+      73,
+      112,
+      119
     ]
   },
   {
