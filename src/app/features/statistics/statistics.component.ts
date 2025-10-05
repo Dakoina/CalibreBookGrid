@@ -102,7 +102,11 @@ interface AuthorCountDistribution {
             <div class="space-y-2">
               @for (author of topAuthors(); track author.name) {
                 <div class="flex items-center gap-3">
-                  <div class="flex-1 text-sm text-gray-200 truncate" [title]="author.name">{{ author.name }}</div>
+                  <a
+                    (click)="navigateToAuthor(author.name)"
+                    class="flex-1 text-sm text-gray-200 truncate hover:text-indigo-400 cursor-pointer transition-colors"
+                    [title]="author.name"
+                  >{{ author.name }}</a>
                   <div class="w-16 text-right">
                     <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-emerald-500/20 text-emerald-300">
                       {{ author.count }}
@@ -566,6 +570,11 @@ export default class StatisticsComponent {
 
   protected navigateToLanguage(languageCode: string): void {
     this.router.navigate(['/covers'], { queryParams: { language: languageCode } });
+  }
+
+  protected navigateToAuthor(authorName: string): void {
+    const authorId = encodeURIComponent(authorName);
+    this.router.navigate(['/covers-extended'], { fragment: `author-${authorId}` });
   }
 
   protected readonly allAuthorInfo = computed((): AuthorInfo[] => {

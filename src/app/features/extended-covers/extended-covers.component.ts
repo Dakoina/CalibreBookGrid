@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, effect, inject } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { BooksService } from '../../shared/books.service';
 import { ThumbnailSizeService } from '../../shared/thumbnail-size.service';
 import { BookCoverComponent } from '../../shared/book-cover';
@@ -16,7 +17,7 @@ import { SizeControlComponent } from '../../shared/size-control';
       </div>
 
       @for (entry of authorsGrouped(); track entry.author) {
-        <section class="mt-1">
+        <section class="mt-1" [id]="'author-' + getAuthorId(entry.author)">
           <h2 class="text-sm font-semibold text-gray-200 mb-1">{{ entry.author }}</h2>
           @for (s of entry.series; track s.name) {
             <div class="mb-1">
@@ -37,6 +38,27 @@ import { SizeControlComponent } from '../../shared/size-control';
 export default class ExtendedCoversComponent {
   protected readonly books = inject(BooksService);
   protected readonly sizes = inject(ThumbnailSizeService);
+  private readonly route = inject(ActivatedRoute);
+
+  constructor() {
+    // Handle fragment scrolling after view is ready
+    effect(() => {
+      // Access the authors list to ensure it's loaded
+      this.authorsGrouped();
+
+      // Small delay to ensure DOM is rendered
+      setTimeout(() => {
+        this.route.fragment.subscribe(fragment => {
+          if (fragment) {
+            const element = document.getElementById(fragment);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      }, 100);
+    });
+  }
 
   protected readonly authorsGrouped = computed(() => {
     const filtered = this.books.filteredSorted();
@@ -51,4 +73,8 @@ export default class ExtendedCoversComponent {
     const w = this.sizes.size() * 2/3;
     return `repeat(auto-fill, minmax(${Math.round(w)}px, 1fr))`;
   });
+
+  protected getAuthorId(authorName: string): string {
+    return encodeURIComponent(authorName);
+  }
 }
