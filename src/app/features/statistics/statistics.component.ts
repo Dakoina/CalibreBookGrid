@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { Router } from '@angular/router';
 import { BooksService } from '../../shared/books.service';
 
 interface LanguageStats {
@@ -84,7 +85,11 @@ interface SeriesCountDistribution {
             <div class="space-y-2">
               @for (series of top10Series(); track series.name) {
                 <div class="flex items-center gap-3">
-                  <div class="flex-1 text-sm text-gray-200 truncate" [title]="series.name">{{ series.name }}</div>
+                  <a
+                    (click)="navigateToSeries(series.name)"
+                    class="flex-1 text-sm text-gray-200 truncate hover:text-indigo-400 cursor-pointer transition-colors"
+                    [title]="series.name"
+                  >{{ series.name }}</a>
                   <div class="w-16 text-right">
                     <span class="inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full bg-indigo-500/20 text-indigo-300">
                       {{ series.count }}
@@ -154,6 +159,7 @@ interface SeriesCountDistribution {
 })
 export default class StatisticsComponent {
   protected readonly books = inject(BooksService);
+  private readonly router = inject(Router);
 
   private readonly languageNames: Record<string, string> = {
     'eng': 'English',
@@ -358,4 +364,9 @@ export default class StatisticsComponent {
       gapsPercentage: total > 0 ? (withGaps / total) * 100 : 0,
     };
   });
+
+  protected navigateToSeries(seriesName: string): void {
+    const seriesId = encodeURIComponent(seriesName);
+    this.router.navigate(['/series'], { fragment: `series-${seriesId}` });
+  }
 }
