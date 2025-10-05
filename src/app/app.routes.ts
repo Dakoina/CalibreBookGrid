@@ -6,5 +6,6 @@ export const routes: Routes = [
   { path: 'covers-extended', loadComponent: () => import('./features/extended-covers/extended-covers.component') },
   { path: 'titles', loadComponent: () => import('./features/titles/titles.component') },
   { path: 'series', loadComponent: () => import('./features/series/series.component') },
+  { path: 'statistics', loadComponent: () => import('./features/statistics/statistics.component') },
   { path: '**', redirectTo: 'covers' },
 ];
